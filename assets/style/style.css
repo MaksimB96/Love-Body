@@ -16,7 +16,9 @@
 
 /* Logo and Navigation Mobile first */
 
-
+.logo{
+    width: 50px;
+}
 
 section{
     background: var(--greenone);
@@ -40,6 +42,7 @@ nav.navigate.active{
     width: 100%;
     height: 60%;
     background: var(--greenone);
+    transition: opacity 0.75s, visibility 0.75s, height 0.75s;
 }
 
 nav.navigate.active a{
@@ -49,6 +52,7 @@ nav.navigate.active a{
     color: var(--white);
     font-family: var(--roboto);
     font-size: 20px;
+    
 }
 
 .tog-box a img {
@@ -68,6 +72,10 @@ img.close.show{
 }
 
 @media only screen and (min-width: 768px) {
+
+    .logo{
+        width: 100px;
+    }
 
     nav.navigate{
         display: flex;
