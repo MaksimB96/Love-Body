@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary: #006A4E;
+    --secondary: #2E856E;
+    --txt-bx-color: #dfe0e1;
+    --txt-bx2-color: #f6f7f8;
+    --white: #ffffff
+}
+
+.logo{
+    width: 150px;
+}
