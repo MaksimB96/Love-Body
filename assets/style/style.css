@@ -4,13 +4,25 @@
 }
 
 :root{
-    --primary: #006A4E;
-    --secondary: #2E856E;
+    --greenone: #006A4E;
+    --greentwo: #2E856E;
     --txt-bx-color: #dfe0e1;
     --txt-bx2-color: #f6f7f8;
-    --white: #ffffff
+    --white: #ffffff;
 }
 
 .logo{
-    width: 150px;
+    width: 100px;
+}
+
+section{
+    background: var(--greenone);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section i{
+    color: var(--white);
 }
