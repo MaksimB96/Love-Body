@@ -14,10 +14,6 @@
     --roboto: 'Roboto', sans-serif;
 }
 
-body h1 h2{
-    font-family: var(--solway);
-}
-
 body p{
     font-family: var(--roboto);
 }
@@ -28,13 +24,19 @@ body p{
     width: 50px;
 }
 
-section{
+
+div#nav-section{
     background: var(--greenone);
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+section h1{
+    font-family: var(--solway);
+}
+
 nav.navigate{
     display: none;
 }
@@ -81,13 +83,21 @@ img.close.show{
 
 /* head section */
 
-#sec2{
+.head-wrapper{
     background: var(--txt-bx-color);
-    justify-content: center;
 }
 
-#sec3, #sec4{
-    background: red;
+.quest-icon{
+    width: 100px;
+    padding: 10px;
+    float: left;
+}
+
+
+.cont-icon{
+    width: 100px;
+    float: right;
+    padding: 20px;
 }
 
 footer{
