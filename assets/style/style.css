@@ -95,31 +95,11 @@ img.close.show{
     padding: 10px;
 }
 
-.sec3-wrapper{
-   
-}
-
-.quest-icon{
-    width: 100px;
-    padding: 10px;
-   
-}
-
-.sec4-wrapper{
-   
-}
-
-.cont-icon{
-    width: 100px;
-    padding: 10px;
-}
-
-/* .section-4-div {
-    clear: right;
-} */
-
-.section-4-div img{
-    float: right;
+.wrapper1{
+    background-image: url('../images/background.png');
+    object-fit: cover;
+    height: 80vh;
+    width: 100%;
 }
 
 footer{
