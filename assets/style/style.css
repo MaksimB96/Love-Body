@@ -21,13 +21,14 @@ body p{
 /* Logo and Navigation Mobile first */
 
 .logo{
-    width: 50px;
+    width: 35px;
+    height: 35px;
 }
 
 
 div#nav-section{
     background: var(--greenone);
-    padding: 20px;
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -104,13 +105,17 @@ img.close.show{
 .wrapper1{
     background-image: url('../images/background.png');
     object-fit: cover;
-    height: 80vh;
+    height: 100vh;
     width: 100%;
 }
 
 .icons_text{
     text-align: center;
     padding-top: 20px;
+}
+
+.icons_text p {
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
 }
 
 .icons_text img{
