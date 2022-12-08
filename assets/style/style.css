@@ -52,8 +52,12 @@ nav.navigate.active{
     width: 100%;
     height: 60%;
     background: var(--greenone);
-    transition: opacity 0.75s, visibility 0.75s, height 0.75s;
 }
+
+nav.navigate a.selected{
+    border-bottom: 1px solid var(--white);
+}
+
 
 nav.navigate.active a{
     padding: 20px;
@@ -95,12 +99,25 @@ img.close.show{
     padding: 10px;
 }
 
+/* body section */
+
 .wrapper1{
     background-image: url('../images/background.png');
     object-fit: cover;
     height: 80vh;
     width: 100%;
 }
+
+.icons_text{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.icons_text img{
+    width: 100px;
+    padding: 20px;
+}
+
 
 footer{
     background: var(--greentwo);
