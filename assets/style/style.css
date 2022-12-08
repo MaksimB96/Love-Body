@@ -87,22 +87,60 @@ img.close.show{
     background: var(--txt-bx-color);
 }
 
+.head-inner{
+    text-align: center;
+}
+
+.head-inner h1, p{
+    padding: 10px;
+}
+
+.sec3-wrapper{
+   
+}
+
 .quest-icon{
     width: 100px;
     padding: 10px;
-    float: left;
+   
 }
 
+.sec4-wrapper{
+   
+}
 
 .cont-icon{
     width: 100px;
+    padding: 10px;
+}
+
+/* .section-4-div {
+    clear: right;
+} */
+
+.section-4-div img{
     float: right;
-    padding: 20px;
 }
 
 footer{
-    background: var(--txt-bx2-color);
+    background: var(--greentwo);
 }
+
+footer ul{
+    text-align: center;
+}
+
+footer li{
+    display: inline;
+}
+
+footer i{
+    font-size: 30px;
+    color: var(--white);
+    margin-right: 10px;
+    padding: 10px 0 10px;
+}
+
 
 @media only screen and (min-width: 768px) {
 
