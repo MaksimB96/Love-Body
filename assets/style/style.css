@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root{
@@ -67,7 +68,7 @@ nav.navigate.active a{
     color: var(--white);
     font-family: var(--roboto);
     font-size: 20px;
-    
+    transition: height 0.5s ease-out;
 }
 
 .tog-box a img {
@@ -115,12 +116,13 @@ img.close.show{
 }
 
 .icons_text p {
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-size: 16px;
 }
 
 .icons_text img{
-    width: 100px;
-    padding: 20px;
+    width: 150px;
+    padding: 10px;
 }
 
 
