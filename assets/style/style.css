@@ -150,6 +150,7 @@ footer i{
 .game-area{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -162,6 +163,10 @@ footer i{
     box-shadow: 0 0 8px 2px;
 }
 
+.score-sec p{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    display: flex;
+}
 /* button styles */
 
 .btn-style{
@@ -169,6 +174,11 @@ footer i{
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
+}
+
+#question{
+    font-family: var(--solway);
+    text-align: center;
 }
 
 .btn{
