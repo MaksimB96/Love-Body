@@ -31,7 +31,7 @@ function startGame(){
     startButton.classList.add('hide');
     questionContElements.classList.remove('hide');
 
-    // questtions.sort will randomize my questions
+    // questions.sort will randomize my questions
     shuffledQuestion = questions.sort(() => Math.random() - .5);
     currentQuestion = 0;
     nextQuestion();
@@ -82,7 +82,14 @@ function answerSelect(event){
     Array.from(answerButtonElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     });
-    nextButton.classList.remove('hide');
+    // allows to restart if questions exhausted
+    if (shuffledQuestion.length > currentQuestion + 1) {
+        nextButton.classList.remove('hide');
+    } else {
+        startButton.innerText = 'Restart';
+        startButton.classList.remove('hide');
+    }
+    
 }
 
 function setStatusClass(element, correct){
@@ -107,5 +114,50 @@ let questions = [
             {text: 'Rate of Percieved Exhertion', correct: true},
             {text: 'Rate of perspiration Experienced', correct: false},
         ]
-    }
+    },
+    {
+        question: 'What does "1RM" stand for?',
+        answer: [
+            {text: '1 Rep Max', correct: true},
+            {text: '1 Rotation per Minute', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'What does concentric phase mean?',
+        answer: [
+            {text: 'Shortening of the muscle', correct: true},
+            {text: 'Elongating the muscle', correct: false},
+        ]
+    },
+    {
+        question: 'What does eccentric phasse mean?',
+        answer: [
+            {text: 'Shortening of the muscle', correct: false},
+            {text: 'Elongating the muscle', correct: true},
+        ]
+    },
+    {
+        question: 'What are compound movement?',
+        answer: [
+            {text: 'Movements using multiple muscle groups', correct: true},
+            {text: 'Movements using one muscle group', correct: false},
+        ]
+    },
+    {
+        question: 'What does HIIT stand for?',
+        answer: [
+            {text: 'Holy intensity interval training', correct: false},
+            {text: 'High intensity interval training', correct: true},
+        ]
+    },
+
 ]
