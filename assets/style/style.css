@@ -153,7 +153,7 @@ footer i{
     align-items: center;
 }
 
-#question-cont{
+.container{
     width: 800px;
     max-width: 80%;
     background: var(--txt-bx-color);
@@ -172,6 +172,7 @@ footer i{
 }
 
 .btn{
+    font-family: var(--roboto);
     border: 1px solid var(--greentwo);
     color: var(--white);
     background: var(--greenone);
@@ -182,11 +183,30 @@ footer i{
 
 .btn.correct{
     background: #77dd77;
+    color: black;
 }
 
 .btn.wrong{
     background: #ffcccb;
 }
+
+.start-btn, .next-btn{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide{
+    display: none;
+}
+
+
 
 @media only screen and (min-width: 768px) {
 
