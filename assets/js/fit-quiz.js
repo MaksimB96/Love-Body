@@ -10,7 +10,8 @@ function showMenu(){
 
 let startButton = document.getElementById('start');
 let questionContElements = document.getElementById('question-cont');
-let questionElements = document.getElementById('question')
+let questionElements = document.getElementById('question');
+let answerButtonElement = document.getElementById('answer-btn');
 
 let randomQuestion, currentQuestion;
 
@@ -55,7 +56,9 @@ function nextQuestion(){
  * 
  */
 
-function showQuestion(question)
+function showQuestion(question){
+    questionElements.innerHTML = question.question;
+}
 
 /**
  * This function will select user's answer
