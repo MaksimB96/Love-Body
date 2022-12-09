@@ -145,6 +145,48 @@ footer i{
     padding: 10px 0 10px;
 }
 
+/* game area styling */
+
+.game-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#question-cont{
+    width: 800px;
+    max-width: 80%;
+    background: var(--txt-bx-color);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 8px 2px;
+}
+
+/* button styles */
+
+.btn-style{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.btn{
+    border: 1px solid var(--greentwo);
+    color: var(--white);
+    background: var(--greenone);
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.btn.correct{
+    background: #77dd77;
+}
+
+.btn.wrong{
+    background: #ffcccb;
+}
 
 @media only screen and (min-width: 768px) {
 
