@@ -17,6 +17,11 @@ let nextButton = document.getElementById('next');
 let shuffledQuestion, currentQuestion;
 
 startButton.addEventListener('click', startGame);
+nextButton.addEventListener('click', () => {
+    // increments to the next question
+    currentQuestion++;
+    nextQuestion();
+})
 
 /**
  * This function will intilize the game, add and remove class 'hide'
