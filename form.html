@@ -39,12 +39,12 @@
     </section>
     <section>
         <div class="wrapper1 form-area">
-            <form onsubmit="sendEmail();">
+            <form>
                 <h3>Leave us some Feedback!</h3>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
                 <textarea id="txtmsg" rows="4" placeholder="How can we Improve?"></textarea>
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="sendMail();">Submit</button>
             </form>
         </div>
     </section>
@@ -62,12 +62,12 @@
     </script>
     <script type="text/javascript">
         (function () {
-            emailjs.init("YOUR_PUBLIC_KEY");
+            emailjs.init("FIiLK4NB1a822qJcb");
         })();
     </script>
     <!-- Font-Awesome script -->
     <script src="https://kit.fontawesome.com/8003b6effc.js" crossorigin="anonymous"></script>
-    <!-- Index JS-->
+    <!-- Contact JS-->
     <script src="assets/js/cont.js"></script>
 
 </body>
