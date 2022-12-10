@@ -39,16 +39,16 @@
     </section>
     <section>
         <div class="wrapper1 form-area">
-            <form action="">
+            <form onsubmit="sendEmail();">
                 <h3>Leave us some Feedback!</h3>
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="txtmsg"  rows="4" placeholder="How can we Improve?"></textarea>
+                <textarea id="txtmsg" rows="4" placeholder="How can we Improve?"></textarea>
                 <button type="submit">Submit</button>
             </form>
         </div>
     </section>
-   
+
     <footer>
         <ul>
             <li><a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
@@ -57,6 +57,14 @@
             <li><i class="fa-brands fa-square-youtube"></i></li>
         </ul>
     </footer>
+    <!-- emailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("YOUR_PUBLIC_KEY");
+        })();
+    </script>
     <!-- Font-Awesome script -->
     <script src="https://kit.fontawesome.com/8003b6effc.js" crossorigin="anonymous"></script>
     <!-- Index JS-->
