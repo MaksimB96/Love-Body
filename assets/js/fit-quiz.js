@@ -37,6 +37,16 @@ function startGame(){
     nextQuestion();
 }
 
+function incrementRightAnswer(){
+    let quizScore = parseInt(document.getElementById('right').innerText);
+    document.getElementById('right').innerText = ++quizScore;
+}
+
+function incrementWrongAnswer(){
+    let quizScore = parseInt(document.getElementById('wrong').innerText);
+    document.getElementById('wrong').innerText = ++quizScore;
+}
+
 /**
  * This function will the next question to cycle through
  */
@@ -79,6 +89,7 @@ function answerSelect(event){
     let selectButton = event.target;
     let correct = selectButton.dataset.correct;
     setStatusClass(document.body, correct);
+    // coverts answerbuttonelements.children to array so I can loop through it
     Array.from(answerButtonElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     });

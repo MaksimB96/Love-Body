@@ -15,6 +15,10 @@
     --roboto: 'Roboto', sans-serif;
 }
 
+body h1, h2, h3{
+    font-family: var(--solway);
+}
+
 body p{
     font-family: var(--roboto);
 }
@@ -68,7 +72,6 @@ nav.navigate.active a{
     color: var(--white);
     font-family: var(--roboto);
     font-size: 20px;
-    transition: height 0.5s ease-out;
 }
 
 .tog-box a img {
@@ -106,7 +109,7 @@ img.close.show{
 .wrapper1{
     background-image: url('../images/background.png');
     object-fit: cover;
-    height: 100vh;
+    height: 91vh;
     width: 100%;
 }
 
@@ -216,7 +219,23 @@ footer i{
     display: none;
 }
 
+/* feedback form styling */
+.form-area{
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+}
 
+form{
+    background: var(--txt-bx-color);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 2px;
+}
 
 @media only screen and (min-width: 768px) {
 
