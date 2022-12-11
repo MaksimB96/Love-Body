@@ -23,7 +23,7 @@ function validateForm() {
 
     if(emailValue === ''){
         setError(email, 'Email is Required');
-    } else if {
+    } else if (!isEmailValid(emailValue)){
         setError(email, 'Provide a Valid Email');
     } else {
         setSuccess(email);
@@ -32,6 +32,7 @@ function validateForm() {
 
 
 function isEmailValid (email){
+    //Code snippet from java script academy youtube
     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(String(email).toLowerCase());
 }
@@ -45,8 +46,17 @@ function setError(element, message){
     inputControl.classList.remove('success');
 }
 
+function setSuccess(element){
+    const inputControl = element.parentElement;
+    const errorShow = inputControl.querySelector('.error');
+
+    errorShow.innerText = '';
+    inputControl.classList.add('success');
+    inputControl.classList.remove('error');
+}
+
 /**
- * This function will allow string values to be sent
+ * This function will allow string values to be sent see read me for more info
  */
 function sendMail(){
     let sendInfo = {

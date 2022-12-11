@@ -265,11 +265,11 @@ form button{
 }
 
 .form-valid.valid input{
-border-color: green;
+    border: 1px solid green;
 }
 
 .form-valid.error input{
-    border-color: red;
+    border: 1px solid red;
 }
 
 .form-valid .error{
