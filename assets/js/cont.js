@@ -8,8 +8,22 @@ function showMenu(){
     document.querySelector('.close').classList.toggle('show');
 }
 
+const form = document.getElementById('form');
+const email = document.getElementById('email');
 
+form.addEventListener('submit', event => {
+    event.preventDefault();
 
+    validateForm();
+});
+
+function validateForm() {
+    const emailValue = email.value.trim();
+
+    if(emailValue === ''){
+        setError(email, 'Email is Required')
+    }
+}
 
 
 
