@@ -7,8 +7,14 @@ function showMenu(){
     document.querySelector('.menu').classList.toggle('hide');
     document.querySelector('.close').classList.toggle('show');
 }
+
+
+
+
+
+
 /**
- * This function will allow sstring values to be sent
+ * This function will allow string values to be sent
  */
 function sendMail(){
     let sendInfo = {

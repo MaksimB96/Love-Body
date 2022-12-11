@@ -41,10 +41,14 @@
         <div class="wrapper1 form-area">
             <form>
                 <h3>Leave us some Feedback!</h3>
-                <input type="text" id="name" placeholder="Your Name" required>
-                <input type="email" id="email" placeholder="Your Email" required>
-                <textarea id="txtmsg" rows="4" placeholder="How can we Improve?"></textarea>
-                <button type="submit" onclick="sendMail();">Submit</button>
+                <div class="form-valid">
+                    <input type="text" id="name" placeholder="Your Name" aria-label="Name" required>
+                </div>
+                <div class="form-valid">
+                    <input type="email" id="email" placeholder="Your Email" aria-label="Email" required>
+                </div>
+                <textarea id="txtmsg" rows="4" placeholder="How can we Improve?" aria-label="Your Message"></textarea>
+                <button type="submit" onclick="sendMail();" aria-label="Submit">Submit</button>
             </form>
         </div>
     </section>

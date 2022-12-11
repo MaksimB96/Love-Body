@@ -244,9 +244,10 @@ form h3{
     text-align: center;
 }
 
-form input, form textarea{
+form .form-valid input, form textarea{
     border: 0;
     border-radius: 5px;
+    width: 100%;
     margin: 10px 0;
     padding: 20px;
     outline: none;
@@ -261,6 +262,20 @@ form button{
     color: var(--white);
     border: 0;
     outline: none;
+}
+
+.form-valid.valid input{
+border-color: green;
+}
+
+.form-valid.error input{
+    border-color: red;
+}
+
+.form-valid .error{
+    color: red;
+    font-size: 9px;
+    height: 13px;
 }
 
 @media only screen and (min-width: 768px) {
