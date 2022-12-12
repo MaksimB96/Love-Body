@@ -251,6 +251,10 @@ form h3{
     color: red;
 }
 
+.form-inputs span i{
+    color: green;
+}
+
 form  input, form textarea{
     border: 0;
     border-radius: 5px;

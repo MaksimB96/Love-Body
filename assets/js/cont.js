@@ -18,18 +18,26 @@ function validName(){
         nameError.innerHTML = 'Name Required';
         return false;
     }
-    nameError.innerHTML = 'valid';
+    if(!validateName.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
+        nameError.innerHTML = 'Full Name Required';
+        return false;
+    }
+    nameError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 }
 
 function validEmail(){
-    let validateEmail =document.getElementById('contact-email').value;
+    let validateEmail = document.getElementById('contact-email').value;
 
     if(validateEmail == 0){
         emailError.innerHTML = 'Email Required';
         return false;
     }
-    emailError.innerHTML = 'valid';
+    if (!validateEmail.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2, 4}$/)){
+        emailError.innerHTML = 'Email Invalid';
+        return false;
+    }
+    emailError.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
     return true;
 
 }
