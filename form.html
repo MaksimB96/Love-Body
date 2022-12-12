@@ -44,17 +44,18 @@
                 <h3>Leave some Feedback!</h3>
                 <div class="form-inputs">
                     <label>Full Name<span id="name-error"> Name Required</span></label>
-                    <input id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();" >
+                    <input id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();">
                     <!-- <span id="name-error">Name Required</span> -->
                 </div>
                 <div class="form-inputs">
                     <label>Email Address<span id="email-error">. Email Required</span></label>
-                    <input id="contact-email" type="email"  placeholder="Please enter your email" onkeyup="validEmail();">
+                    <input id="contact-email" type="email" placeholder="Please enter your email"
+                        onkeyup="validEmail();">
                     <!-- <span id="email-error">Email Required</span> -->
                 </div>
                 <div class="form-inputs">
                     <label>Your Feedback</label>
-                    <textarea id="txtmsg" rows="5"  placeholder="Please leave us your feedback!"></textarea>
+                    <textarea id="txtmsg" rows="5" placeholder="Please leave us your feedback!"></textarea>
                 </div>
 
                 <button onclick="sendMail();">Submit</button>
@@ -65,10 +66,15 @@
 
     <footer>
         <ul>
-            <li><a href="https://instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://twitter.com"><i class="fa-brands fa-square-twitter"></i></a></li>
-            <li><i class="fa-brands fa-square-facebook"></i></li>
-            <li><i class="fa-brands fa-square-youtube"></i></li>
+            <li><a href="https://instagram.com" aria-label="Follow us on Instagram"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://twitter.com" aria-label="Follow us on Twitter"><i
+                        class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://facebook.com" aria-label="Follow us on Facebook"><i
+                        class="fa-brands fa-square-facebook"></i></li></a>
+            <li><a href="https://youtube.com" aria-label="Follow us on Youtube"><i
+                        class="fa-brands fa-square-youtube"></i></li></a>
+
         </ul>
     </footer>
     <!-- emailJS -->

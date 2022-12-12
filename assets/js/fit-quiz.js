@@ -36,19 +36,19 @@ function startGame(){
     currentQuestion = 0;
     nextQuestion();
 }
-
+// I need implement these in the setStatus class
 function incrementRightAnswer(){
     let quizScore = parseInt(document.getElementById('right').innerText);
     document.getElementById('right').innerText = ++quizScore;
 }
 
 function incrementWrongAnswer(){
-    let quizScore = parseInt(document.getElementById('wrong').innerText);
+    let quizScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('wrong').innerText = ++quizScore;
 }
 
 /**
- * This function will the next question to cycle through
+ * This function will get the next question to cycle through
  */
 function nextQuestion(){
     resetMode();
@@ -70,6 +70,7 @@ function showQuestion(question){
         if(answer.correct){
             button.dataset.correct = answer.correct
         };
+
         button.addEventListener('click', answerSelect);
         answerButtonElement.appendChild(button);
     })
