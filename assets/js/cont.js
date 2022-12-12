@@ -18,7 +18,7 @@ function validName(){
         nameError.innerHTML = 'Name Required';
         return false;
     }
-    if(!validateName.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
+    if(!validateName.match(/^[A-Za-z]*\s{2}[A-Za-z]*$/)){
         nameError.innerHTML = 'Full Name Required';
         return false;
     }
