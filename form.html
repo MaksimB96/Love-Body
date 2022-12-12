@@ -38,18 +38,28 @@
         </div>
     </section>
     <section>
+
         <div class="wrapper1 form-area">
-            <form id="form">
-                <h3>Leave us some Feedback!</h3>
-                <div class="form-valid">
-                    <input type="text" id="name" placeholder="Your Name" aria-label="Name" required>
+            <form action="">
+                <h3>Leave some Feedback!</h3>
+                <div class="form-inputs">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" placeholder="Please enter your name">
+                    <span id="name-error">Name Required</span>
                 </div>
-                <div class="form-valid">
-                    <input type="email" id="email" placeholder="Your Email" aria-label="Email" required>
+                <div class="form-inputs">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" placeholder="Please enter your email">
+                    <span id="email-error">Email Required</span>
                 </div>
-                <textarea id="txtmsg" rows="4" placeholder="How can we Improve?" aria-label="Your Message"></textarea>
-                <button type="submit" onclick="sendMail();" aria-label="Submit">Submit</button>
+                <div class="form-inputs">
+                    <label for="message">Your Feedback</label>
+                    <textarea rows="5" name="message" placeholder="Please leave us your feedback!"></textarea>
+                </div>
+
+                <button>Submit</button>
             </form>
+
         </div>
     </section>
 
