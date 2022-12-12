@@ -1,7 +1,4 @@
-/**
- * Function that allows burger menu to drop down and then close 
- */
-
+//Toggles between class lists in order to llow slide down menu 
 function showMenu(){
     document.querySelector('.navigate').classList.toggle('active');
     document.querySelector('.menu').classList.toggle('hide');
@@ -23,9 +20,8 @@ nextButton.addEventListener('click', () => {
     nextQuestion();
 })
 
-/**
- * This function will intilize the game, add and remove class 'hide'
- */
+
+ //This function will intilize the game, add and remove class 'hide'
 function startGame(){
     console.log('started');
     startButton.classList.add('hide');
@@ -37,11 +33,7 @@ function startGame(){
     nextQuestion();
 }
 
-function checkAnswer(){
 
-}
-
-// I need implement these in the setStatus class
 function incrementRightAnswer(){
     let quizScore = parseInt(document.getElementById('right').innerText);
     document.getElementById('right').innerText = ++quizScore;
@@ -52,18 +44,14 @@ function incrementWrongAnswer(){
     document.getElementById('incorrect').innerText = ++quizScore;
 }
 
-/**
- * This function will get the next question to cycle through
- */
+
+//This function will get the next question to cycle through
 function nextQuestion(){
     resetMode();
     showQuestion(shuffledQuestion[currentQuestion])
 }
 
-/**
- * 
- */
-
+//for each loop used to traverse my array and wait for user input 
 function showQuestion(question){
     questionElements.innerHTML = question.question;
     question.answer.forEach(answer => {
@@ -81,6 +69,7 @@ function showQuestion(question){
     })
 }
 
+//resets question being asked 
 function resetMode(){
     nextButton.classList.add('hide');
     while (answerButtonElement.firstChild) {
@@ -88,9 +77,7 @@ function resetMode(){
     };
 }
 
-/**
- * This function will select user's answer
- */
+//Selects users answer and checks if correct or wrong and then increment
 function answerSelect(event){
     let selectButton = event.target;
     let correct = selectButton.dataset.correct;
@@ -106,12 +93,17 @@ function answerSelect(event){
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
     }
+    //increments users answers by calling right/wrong answer functions
+    //My true statement was a string therefore true represented as such
     if (correct === 'true'){
         incrementRightAnswer();
+        alert('Well Done that is correct!');
     } else {
         incrementWrongAnswer();
+        alert('Whoops, that is incorrect!')
     }
 }
+
 
 function setStatusClass(element, correct){
     clearStatusElement(element)  
