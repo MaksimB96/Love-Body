@@ -1,7 +1,4 @@
-/**
- * Function that allows burger menu to drop down and then close 
- */
-
+//Function that allows burger menu to drop down and then close
 function showMenu(){
     document.querySelector('.navigate').classList.toggle('active');
     document.querySelector('.menu').classList.toggle('hide');
@@ -12,9 +9,8 @@ let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 
 
-/**
- * Function will validaate whether name is full or if empty or not 
- */
+
+ //Function will validate whether name is full or if empty or not 
 function validName(){
     let validateName = document.getElementById('contact-name').value;
 
@@ -22,6 +18,7 @@ function validName(){
         nameError.innerHTML = 'Name Required';
         return false;
     }
+    //stack overflow used in order to use appropriate string when validating a name 
     if(!validateName.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
         nameError.innerHTML = 'Full Name Required';
         return false;
@@ -30,10 +27,8 @@ function validName(){
     return true;
 }
 
-/**
- * Function will validate whether email is valid using specific inputs
- * or if it is empty or not 
- */
+
+//Function will validate whether email is valid using specific inputs or if it is empty or not 
 function validEmail(){
     let validateEmail = document.getElementById('contact-email').value;
 
@@ -41,6 +36,7 @@ function validEmail(){
         emailError.innerHTML = 'Email Required';
         return false;
     }
+    //stack overflow used in order to use appropriate string when validating a name 
     if (!validateEmail.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
         emailError.innerHTML = 'Email Invalid';
         return false;
@@ -50,9 +46,8 @@ function validEmail(){
 
 }
 
-/**
- * This function will allow string values to be sent, see read me for more info
- */
+
+ //This function will allow string values to be sent using emailJS, see read me for more info 
 function sendMail(){
     let sendInfo = {
         name: document.getElementById('contact-name').value ,
