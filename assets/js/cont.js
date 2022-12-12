@@ -18,7 +18,7 @@ function validName(){
         nameError.innerHTML = 'Name Required';
         return false;
     }
-    if(!validateName.match(/^[A-Za-z]*\s{2}[A-Za-z]*$/)){
+    if(!validateName.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
         nameError.innerHTML = 'Full Name Required';
         return false;
     }
@@ -33,7 +33,7 @@ function validEmail(){
         emailError.innerHTML = 'Email Required';
         return false;
     }
-    if (!validateEmail.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2, 4}$/)){
+    if (!validateEmail.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
         emailError.innerHTML = 'Email Invalid';
         return false;
     }
@@ -45,25 +45,25 @@ function validEmail(){
 /**
  * This function will allow string values to be sent see read me for more info
  */
-// function sendMail(){
-//     let sendInfo = {
-//         name: document.getElementById('name').value ,
-//         email: document.getElementById('email').value ,
-//         message: document.getElementById('txtmsg').value
-//     };
-//     const serviceID = 'service_2m35b0r';
-//     const templateID = 'template_fyhy87s';
+function sendMail(){
+    let sendInfo = {
+        name: document.getElementById('contact-name').value ,
+        email: document.getElementById('contact-email').value ,
+        message: document.getElementById('txtmsg').value
+    };
+    const serviceID = 'service_2m35b0r';
+    const templateID = 'template_fyhy87s';
 
-//     emailjs.send(serviceID, templateID, sendInfo)
-//     .then(
-//     res =>{
-//         document.getElementById('name').value = "";
-//         document.getElementById('email').value = "";
-//         document.getElementById('txtmsg').value = "";
-//         console.log(res);
-//         alert('Thanks for the feedback!')
-//     })
-//     .catch(err => console.log(err))
-//     ;
-// }
+    emailjs.send(serviceID, templateID, sendInfo)
+    .then(
+    res =>{
+        document.getElementById('contact-name').value = "";
+        document.getElementById('contact-email').value = "";
+        document.getElementById('txtmsg').value = "";
+        console.log(res);
+        alert('Thanks for the feedback!')
+    })
+    .catch(err => console.log(err))
+    ;
+}
 
