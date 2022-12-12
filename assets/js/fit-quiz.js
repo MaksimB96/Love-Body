@@ -36,6 +36,11 @@ function startGame(){
     currentQuestion = 0;
     nextQuestion();
 }
+
+function checkAnswer(){
+
+}
+
 // I need implement these in the setStatus class
 function incrementRightAnswer(){
     let quizScore = parseInt(document.getElementById('right').innerText);
@@ -44,7 +49,7 @@ function incrementRightAnswer(){
 
 function incrementWrongAnswer(){
     let quizScore = parseInt(document.getElementById('incorrect').innerText);
-    document.getElementById('wrong').innerText = ++quizScore;
+    document.getElementById('incorrect').innerText = ++quizScore;
 }
 
 /**
@@ -101,7 +106,11 @@ function answerSelect(event){
         startButton.innerText = 'Restart';
         startButton.classList.remove('hide');
     }
-    
+    if (correct === 'true'){
+        incrementRightAnswer();
+    } else {
+        incrementWrongAnswer();
+    }
 }
 
 function setStatusClass(element, correct){
