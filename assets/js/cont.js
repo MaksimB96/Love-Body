@@ -20,6 +20,17 @@ function validName(){
     }
     nameError.innerHTML = 'valid';
     return true;
+}
+
+function validEmail(){
+    let validateEmail =document.getElementById('contact-email').value;
+
+    if(validateEmail == 0){
+        emailError.innerHTML = 'Email Required';
+        return false;
+    }
+    emailError.innerHTML = 'valid';
+    return true;
 
 }
 
