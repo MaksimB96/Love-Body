@@ -37,6 +37,7 @@ div#nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 section h1{
@@ -73,6 +74,7 @@ nav.navigate.active a{
     font-family: var(--roboto);
     font-size: 20px;
 }
+
 
 .tog-box a img {
     filter: invert(1);
@@ -246,9 +248,10 @@ form h3{
 
 .form-inputs span{
     font-size: 9px;
-    position: absolute;
-    right: 62px;
+    /* position: absolute; */
+    /* right: 62px; */
     color: red;
+    margin-left: 5px;
 }
 
 .form-inputs span i{

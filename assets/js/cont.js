@@ -11,6 +11,10 @@ function showMenu(){
 let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 
+
+/**
+ * Function will validaate whether name is full or if empty or not 
+ */
 function validName(){
     let validateName = document.getElementById('contact-name').value;
 
@@ -26,6 +30,10 @@ function validName(){
     return true;
 }
 
+/**
+ * Function will validate whether email is valid using specific inputs
+ * or if it is empty or not 
+ */
 function validEmail(){
     let validateEmail = document.getElementById('contact-email').value;
 
@@ -43,7 +51,7 @@ function validEmail(){
 }
 
 /**
- * This function will allow string values to be sent see read me for more info
+ * This function will allow string values to be sent, see read me for more info
  */
 function sendMail(){
     let sendInfo = {
