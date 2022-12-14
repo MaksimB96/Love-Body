@@ -37,7 +37,6 @@ div#nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 1;
 }
 
 section h1{
@@ -282,7 +281,8 @@ form button{
 @media only screen and (min-width: 768px) {
 
     .logo{
-        width: 100px;
+        width: 60px;
+        height: 60px;
     }
 
     nav.navigate{
@@ -300,5 +300,19 @@ form button{
 
     div.tog-box{
         display: none;
+    }
+    
+    /* Quiz section */
+    .score-sec p{
+        display: inline-block;
+    }
+}
+
+/* Laptop to desktop styling */
+@media only screen and (min-width: 800px){
+    nav.navigate a:hover{
+        border-bottom: 1px orange solid;
+        color: orange;
+        cursor: pointer;
     }
 }
