@@ -310,6 +310,22 @@ form button{
 
 /* Laptop to desktop styling */
 @media only screen and (min-width: 800px){
+
+    .logo:hover {
+        animation-name: logo-zoom;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
+    }
+
+    @keyframes logo-zoom {
+        from{
+            transform: scale(1);
+        }
+        to{
+            transform: scale(1.1);
+        }
+    }
+
     nav.navigate a:hover{
         border-bottom: 1px orange solid;
         color: orange;
