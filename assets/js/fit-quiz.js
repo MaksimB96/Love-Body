@@ -102,6 +102,7 @@ function answerSelect(event){
         incrementWrongAnswer();
         alert('Whoops, that is incorrect!')
     }
+
 }
 
 

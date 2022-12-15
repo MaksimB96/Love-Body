@@ -310,7 +310,7 @@ form button{
 
 /* Laptop to desktop styling */
 @media only screen and (min-width: 800px){
-
+    /* navbar styling */
     .logo:hover {
         animation-name: logo-zoom;
         animation-fill-mode: forwards;
@@ -331,4 +331,5 @@ form button{
         color: orange;
         cursor: pointer;
     }
+
 }
