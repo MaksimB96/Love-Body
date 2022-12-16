@@ -352,6 +352,18 @@ form button {
         }
     }
 
+    .container-index p{
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    .container-index img:hover{
+        animation-name: logo-zoom;
+        animation-fill-mode: forwards;
+        animation-duration: 0.5s;
+    }
+
     nav.navigate a:hover {
         border-bottom: 1px orange solid;
         color: orange;
@@ -360,5 +372,12 @@ form button {
 
     footer i:hover{
         color: orange;
+    }
+    
+    .form-btn-submit:active, .form-btn-submit:hover{
+        background: var(--white);
+        color: var(--greenone);
+        transition: 0.5s;
+        cursor: pointer;
     }
 }
