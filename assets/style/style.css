@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     --greenone: #006A4E;
     --greentwo: #2E856E;
     --txt-bx-color: #dfe0e1;
@@ -15,23 +15,25 @@
     --roboto: 'Roboto', sans-serif;
 }
 
-body h1, h2, h3{
+body h1,
+h2,
+h3 {
     font-family: var(--solway);
 }
 
-body p{
+body p {
     font-family: var(--roboto);
 }
 
 /* Logo and Navigation Mobile first */
 
-.logo{
+.logo {
     width: 35px;
     height: 35px;
 }
 
 
-div#nav-section{
+div#nav-section {
     background: var(--greenone);
     padding: 15px;
     display: flex;
@@ -39,15 +41,15 @@ div#nav-section{
     align-items: center;
 }
 
-section h1{
+section h1 {
     font-family: var(--solway);
 }
 
-nav.navigate{
+nav.navigate {
     display: none;
 }
 
-nav.navigate.active{
+nav.navigate.active {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,12 +62,12 @@ nav.navigate.active{
     background: var(--greenone);
 }
 
-nav.navigate a.selected{
+nav.navigate a.selected {
     border-bottom: 1px solid var(--white);
 }
 
 
-nav.navigate.active a{
+nav.navigate.active a {
     padding: 20px;
     list-style-type: none;
     text-decoration: none;
@@ -79,70 +81,89 @@ nav.navigate.active a{
     filter: invert(1);
 }
 
-img.menu.hide{
+img.menu.hide {
     display: none;
 }
 
-img.close{
+img.close {
     display: none;
 }
 
-img.close.show{
+img.close.show {
     display: flex;
 }
 
 /* head section */
 
-.head-wrapper{
+.head-wrapper {
     background: var(--txt-bx-color);
 }
 
-.head-inner{
+.head-inner {
     text-align: center;
 }
 
-.head-inner h1, p{
+.head-inner h1,
+p {
     padding: 10px;
 }
 
 /* body section */
+.index-background {
+    background-image: url('../images/background.png');
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
-.wrapper1{
+.no-gutters {
+    margin: 0;
+}
+
+.wrapper1 {
     background-image: url('../images/background.png');
     object-fit: cover;
     height: 91vh;
     width: 100%;
 }
 
-.icons_text{
+.container-index {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
     text-align: center;
-    padding-top: 20px;
 }
 
-.icons_text p {
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-    font-size: 16px;
+.container-index a {
+    cursor: pointer;
 }
 
-.icons_text img{
+.container-index p{
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+}
+
+.icons_text img {
     width: 150px;
     padding: 10px;
 }
 
 
-footer{
+footer {
     background: var(--greentwo);
 }
 
-footer ul{
+footer ul {
     text-align: center;
 }
 
-footer li{
+footer li {
     display: inline;
 }
 
-footer i{
+footer i {
     font-size: 30px;
     color: var(--white);
     margin-right: 10px;
@@ -151,14 +172,14 @@ footer i{
 
 /* game area styling */
 
-.game-area{
+.game-area {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.container{
+.container {
     width: 800px;
     max-width: 80%;
     background: var(--txt-bx-color);
@@ -167,25 +188,26 @@ footer i{
     box-shadow: 0 0 8px 2px;
 }
 
-.score-sec p{
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+.score-sec p {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
     display: flex;
 }
+
 /* button styles */
 
-.btn-style{
+.btn-style {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
     margin: 20px 0;
 }
 
-#question{
+#question {
     font-family: var(--solway);
     text-align: center;
 }
 
-.btn{
+.btn {
     font-family: var(--roboto);
     border: 1px solid var(--greentwo);
     color: var(--white);
@@ -195,40 +217,41 @@ footer i{
     outline: none;
 }
 
-.btn.correct{
+.btn.correct {
     background: #77dd77;
     color: black;
 }
 
-.btn.wrong{
+.btn.wrong {
     background: red;
 }
 
-.start-btn, .next-btn{
+.start-btn,
+.next-btn {
     font-size: 24px;
     font-weight: bold;
     padding: 10px 20px;
 }
 
-.controls{
+.controls {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 /* feedback form styling */
-.form-area{
-   display: flex;
-   align-items: center;
-   justify-content: center; 
+.form-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-form{
-    background: var(--txt-bx-color);
+form {
+    background: var(--txt-bx2-color);
     display: flex;
     flex-direction: column;
     padding: 20px 40px;
@@ -240,12 +263,12 @@ form{
 }
 
 
-form h3{
+form h3 {
     margin-bottom: 20px;
     text-align: center;
 }
 
-.form-inputs span{
+.form-inputs span {
     font-size: 9px;
     /* position: absolute; */
     /* right: 62px; */
@@ -253,11 +276,12 @@ form h3{
     margin-left: 10px;
 }
 
-.form-inputs span i{
+.form-inputs span i {
     color: green;
 }
 
-form  input, form textarea{
+form input,
+form textarea {
     border: 0;
     border-radius: 5px;
     width: 100%;
@@ -268,7 +292,7 @@ form  input, form textarea{
     font-family: var(--roboto);
 }
 
-form button{
+form button {
     padding: 10px;
     border-radius: 5px;
     background: var(--greentwo);
@@ -280,16 +304,16 @@ form button{
 
 @media only screen and (min-width: 768px) {
 
-    .logo{
+    .logo {
         width: 60px;
         height: 60px;
     }
 
-    nav.navigate{
+    nav.navigate {
         display: flex;
     }
 
-    nav.navigate a{
+    nav.navigate a {
         font-size: 16px;
         padding: 10px;
         color: var(--white);
@@ -298,18 +322,19 @@ form button{
         font-weight: bold;
     }
 
-    div.tog-box{
+    div.tog-box {
         display: none;
     }
-    
+
     /* Quiz section */
-    .score-sec p{
+    .score-sec p {
         display: inline-block;
     }
 }
 
 /* Laptop to desktop styling */
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 800px) {
+
     /* navbar styling */
     .logo:hover {
         animation-name: logo-zoom;
@@ -318,18 +343,22 @@ form button{
     }
 
     @keyframes logo-zoom {
-        from{
+        from {
             transform: scale(1);
         }
-        to{
+
+        to {
             transform: scale(1.1);
         }
     }
 
-    nav.navigate a:hover{
+    nav.navigate a:hover {
         border-bottom: 1px orange solid;
         color: orange;
         cursor: pointer;
     }
 
+    footer i:hover{
+        color: orange;
+    }
 }
