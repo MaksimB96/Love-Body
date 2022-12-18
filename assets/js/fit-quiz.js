@@ -12,6 +12,7 @@ let questionContElements = document.getElementById('question-cont');
 let questionElements = document.getElementById('question');
 let answerButtonElement = document.getElementById('answer-btn');
 let nextButton = document.getElementById('next');
+let restartButton = document.getElementById('restart')
 
 let shuffledQuestion, currentQuestion;
 
@@ -21,6 +22,7 @@ nextButton.addEventListener('click', () => {
     currentQuestion++;
     nextQuestion();
 })
+// restartButton.addEventListener('click', gameReset)
 
 
  /**
