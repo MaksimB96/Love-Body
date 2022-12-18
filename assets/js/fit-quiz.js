@@ -27,7 +27,6 @@ nextButton.addEventListener('click', () => {
 })
 restartButton.addEventListener('click', gameReset)
 
-
  /**
   * This function will intilize the game, add and remove class 'hide'
   */
@@ -45,7 +44,6 @@ function startGame(){
 /**
  * These functions used to increment users score (right or wrong)
  */
-//I changed quiz score from let to var
 function incrementRightAnswer(){
     // let quizScore = parseInt(document.getElementById('right').innerText);
     // document.getElementById('right').innerText = ++quizScore;
