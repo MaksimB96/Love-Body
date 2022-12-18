@@ -1,4 +1,6 @@
-//Toggles between class lists in order to llow slide down menu 
+/**
+ * Toggles between class lists in order to llow slide down menu 
+ */
 function showMenu(){
     document.querySelector('.navigate').classList.toggle('active');
     document.querySelector('.menu').classList.toggle('hide');
@@ -21,7 +23,9 @@ nextButton.addEventListener('click', () => {
 })
 
 
- //This function will intilize the game, add and remove class 'hide'
+ /**
+  * This function will intilize the game, add and remove class 'hide'
+  */
 function startGame(){
     console.log('started');
     startButton.classList.add('hide');
@@ -44,14 +48,17 @@ function incrementWrongAnswer(){
     document.getElementById('incorrect').innerText = ++quizScore;
 }
 
-
-//This function will get the next question to cycle through
+/**
+ * This function will get the next question to cycle through
+ */
 function nextQuestion(){
     resetMode();
     showQuestion(shuffledQuestion[currentQuestion])
 }
 
-//for each loop used to traverse my array and wait for user input 
+/**
+ * for each loop used to traverse my array and wait for user input question 
+ */
 function showQuestion(question){
     questionElements.innerHTML = question.question;
     question.answer.forEach(answer => {
@@ -69,7 +76,9 @@ function showQuestion(question){
     })
 }
 
-//resets question being asked 
+/**
+ * resets question being asked 
+ */
 function resetMode(){
     nextButton.classList.add('hide');
     while (answerButtonElement.firstChild) {
@@ -77,7 +86,13 @@ function resetMode(){
     };
 }
 
-//Selects users answer and checks if correct or wrong and then increment
+// function gameReset (){
+//     quizScore = 0;
+// }
+
+/**
+ * Selects users answer and checks if correct or wrong and then increment event 
+ */
 function answerSelect(event){
     let selectButton = event.target;
     let correct = selectButton.dataset.correct;
@@ -94,14 +109,18 @@ function answerSelect(event){
         startButton.classList.remove('hide');
     }
     //increments users answers by calling right/wrong answer functions
-    //My true statement was a string therefore true represented as such
+    //My true dataset, statement was a string therefore true represented as such
     if (correct === 'true'){
         incrementRightAnswer();
         alert('Well Done that is correct!');
     } else {
         incrementWrongAnswer();
-        alert('Whoops, that is incorrect!')
+        alert('Whoops, that is incorrect!');
     }
+
+    // if(startButton.innerText = 'Restart'){
+
+    // }
 
 }
 

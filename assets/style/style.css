@@ -60,6 +60,7 @@ nav.navigate.active {
     width: 100%;
     height: 60%;
     background: var(--greenone);
+    transition: 0.5s;
 }
 
 nav.navigate a.selected {
@@ -182,7 +183,7 @@ footer i {
 .container {
     width: 800px;
     max-width: 80%;
-    background: var(--txt-bx-color);
+    background: var(--txt-bx2-color);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 8px 2px;
@@ -227,7 +228,7 @@ footer i {
 }
 
 .start-btn,
-.next-btn {
+.next-btn, .restart-btn {
     font-size: 24px;
     font-weight: bold;
     padding: 10px 20px;
