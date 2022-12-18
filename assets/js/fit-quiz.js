@@ -22,7 +22,7 @@ nextButton.addEventListener('click', () => {
     currentQuestion++;
     nextQuestion();
 })
-// restartButton.addEventListener('click', gameReset)
+restartButton.addEventListener('click', gameReset)
 
 
  /**
@@ -39,14 +39,17 @@ function startGame(){
     nextQuestion();
 }
 
-
+/**
+ * These functions used to increment users score (right or wrong)
+ */
+//I changed quiz score from let to var
 function incrementRightAnswer(){
-    let quizScore = parseInt(document.getElementById('right').innerText);
+    var quizScore = parseInt(document.getElementById('right').innerText);
     document.getElementById('right').innerText = ++quizScore;
 }
 
 function incrementWrongAnswer(){
-    let quizScore = parseInt(document.getElementById('incorrect').innerText);
+    var quizScore = parseInt(document.getElementById('incorrect').innerText);
     document.getElementById('incorrect').innerText = ++quizScore;
 }
 
@@ -88,9 +91,9 @@ function resetMode(){
     };
 }
 
-// function gameReset (){
-//     quizScore = 0;
-// }
+function gameReset (){
+    quizScore = 0;
+}
 
 /**
  * Selects users answer and checks if correct or wrong and then increment event 
@@ -107,22 +110,19 @@ function answerSelect(event){
     if (shuffledQuestion.length > currentQuestion + 1) {
         nextButton.classList.remove('hide');
     } else {
-        startButton.innerText = 'Restart';
-        startButton.classList.remove('hide');
+        // startButton.innerText = 'Restart';
+        // startButton.classList.remove('hide');
+        restartButton.classList.remove('hide');
+        gameReset(); 
     }
     //increments users answers by calling right/wrong answer functions
     //My true dataset, statement was a string therefore true represented as such
     if (correct === 'true'){
         incrementRightAnswer();
-        alert('Well Done that is correct!');
     } else {
         incrementWrongAnswer();
-        alert('Whoops, that is incorrect!');
     }
 
-    // if(startButton.innerText = 'Restart'){
-
-    // }
 
 }
 
@@ -174,7 +174,7 @@ let questions = [
         ]
     },
     {
-        question: 'What does eccentric phasse mean?',
+        question: 'What does eccentric phase mean?',
         answer: [
             {text: 'Shortening of the muscle', correct: false},
             {text: 'Elongating the muscle', correct: true},
