@@ -12,8 +12,11 @@ let questionContElements = document.getElementById('question-cont');
 let questionElements = document.getElementById('question');
 let answerButtonElement = document.getElementById('answer-btn');
 let nextButton = document.getElementById('next');
-let restartButton = document.getElementById('restart')
-
+let restartButton = document.getElementById('restart');
+let score = 0;
+let incorrect = 0;
+let quizScore = document.getElementById('right')
+let wrongScore = document.getElementById('incorrect')
 let shuffledQuestion, currentQuestion;
 
 startButton.addEventListener('click', startGame);
@@ -44,13 +47,17 @@ function startGame(){
  */
 //I changed quiz score from let to var
 function incrementRightAnswer(){
-    var quizScore = parseInt(document.getElementById('right').innerText);
-    document.getElementById('right').innerText = ++quizScore;
+    // let quizScore = parseInt(document.getElementById('right').innerText);
+    // document.getElementById('right').innerText = ++quizScore;
+    score++;
+    quizScore.innerHTML = score;
 }
 
 function incrementWrongAnswer(){
-    var quizScore = parseInt(document.getElementById('incorrect').innerText);
-    document.getElementById('incorrect').innerText = ++quizScore;
+    // let quizScore = parseInt(document.getElementById('incorrect').innerText);
+    // document.getElementById('incorrect').innerText = ++quizScore;
+    incorrect++;
+    wrongScore.innerHTML = incorrect;
 }
 
 /**
@@ -58,7 +65,7 @@ function incrementWrongAnswer(){
  */
 function nextQuestion(){
     resetMode();
-    showQuestion(shuffledQuestion[currentQuestion])
+    showQuestion(shuffledQuestion[currentQuestion]);
 }
 
 /**
@@ -92,7 +99,14 @@ function resetMode(){
 }
 
 function gameReset (){
-    quizScore = 0;
+    console.log("game is reset");
+    score = 0;
+    incorrect = 0;
+    quizScore.innerHTML = score;
+    wrongScore.innerHTML = incorrect
+    shuffledQuestion = questions.sort(() => Math.random() - .5);
+    currentQuestion = 0;
+    nextQuestion();
 }
 
 /**
@@ -125,7 +139,6 @@ function answerSelect(event){
 
 
 }
-
 
 function setStatusClass(element, correct){
     clearStatusElement(element)  
