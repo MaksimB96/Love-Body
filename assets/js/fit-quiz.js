@@ -165,7 +165,7 @@ let questions = [
         ]
     },
     {
-        question: 'How many muscle heas do the biceps have?',
+        question: 'How many muscle heads do the biceps have?',
         answer: [
             {text: '2', correct: true},
             {text: '3', correct: false},
@@ -202,88 +202,85 @@ let questions = [
         ]
     },
     {
-        question: 'How many muscle heas do the biceps have?',
+        question: 'What does BMR stand for?',
         answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
+            {text: 'Big Massive Roar', correct: false},
+            {text: 'Basal Metabolic Rate', correct: true},
+        ]
+    },
+    {
+        question: 'What is the meaasurment used for food',
+        answer: [
+            {text: 'calories', correct: true},
+            {text: 'kilojules', correct: false},
+            {text: 'Tonnes', correct: false},
+            {text: 'Kilometers', correct: false},
+        ]
+    },
+    {
+        question: 'What are electrolytes made up of?',
+        answer: [
+            {text: 'Magnesium', correct: false},
+            {text: 'Potassium', correct: false},
+            {text: 'Sodium', correct: false},
+            {text: 'All 3', correct: true},
+        ]
+    },
+    {
+        question: 'What macro mainly supports Hormones?',
+        answer: [
+            {text: 'Fat', correct: true},
+            {text: 'Protein', correct: false},
+            {text: 'Carbohydrates', correct: false},
+        ]
+    },
+    {
+        question: 'How many Amino acids make up protein?',
+        answer: [
+            {text: '20', correct: true},
+            {text: '30', correct: false},
+            {text: '40', correct: false},
+            {text: '50', correct: false},
+        ]
+    },
+    {
+        question: 'What does creatine contribute too?',
+        answer: [
+            {text: 'ATP System', correct: false},
+            {text: 'Phospo-creatine System', correct: true},
+            {text: 'Krebs cycle', correct: false},
+            
+        ]
+    },
+    {
+        question: 'How many muscle heads do the triceps have?',
+        answer: [
+            {text: '2', correct: false},
+            {text: '3', correct: true},
             {text: '4', correct: false},
             {text: '5', correct: false},
         ]
     },
     {
-        question: 'How many muscle heas do the biceps have?',
+        question: 'How many calories dos 1g carbs have??',
         answer: [
-            {text: '2', correct: true},
+            {text: '2', correct: false},
+            {text: '4', correct: true},
+            {text: '6', correct: false},
+            {text: '8', correct: false},
+        ]
+    },
+    {
+        question: 'How many calories dos 1g protein have?',
+        answer: [
+            {text: '2', correct: false},
             {text: '3', correct: false},
-            {text: '4', correct: false},
+            {text: '4', correct: true},
             {text: '5', correct: false},
         ]
     },
     {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many muscle heas do the biceps have?',
-        answer: [
-            {text: '2', correct: true},
-            {text: '3', correct: false},
-            {text: '4', correct: false},
-            {text: '5', correct: false},
-        ]
-    },
-    {
-        question: 'How many Calories does 1g Fatt have?',
+        question: 'How many calories does 1g Fat have?',
         answer: [
             {text: '1', correct: false},
             {text: '3', correct: false},
