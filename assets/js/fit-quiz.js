@@ -211,8 +211,8 @@ let questions = [
     {
         question: 'What is the meaasurment used for food',
         answer: [
-            {text: 'calories', correct: true},
-            {text: 'kilojules', correct: false},
+            {text: 'Calories', correct: true},
+            {text: 'Kilojules', correct: false},
             {text: 'Tonnes', correct: false},
             {text: 'Kilometers', correct: false},
         ]
@@ -247,7 +247,7 @@ let questions = [
         question: 'What does creatine contribute too?',
         answer: [
             {text: 'ATP System', correct: false},
-            {text: 'Phospo-creatine System', correct: true},
+            {text: 'Phospho-creatine System', correct: true},
             {text: 'Krebs cycle', correct: false},
             
         ]
@@ -286,6 +286,31 @@ let questions = [
             {text: '3', correct: false},
             {text: '4', correct: false},
             {text: '9', correct: true},
+        ]
+    },
+    {
+        question: 'What does training cause the muscles to do?',
+        answer: [
+            {text: 'Build muscle', correct: false},
+            {text: 'Micro tears the muscle', correct: true},
+        ]
+    },
+    {
+        question: 'What does fibre contribute to?',
+        answer: [
+            {text: 'Healthy Digestion', correct: false},
+            {text: 'Lowers Risk of Diabetes', correct: false},
+            {text: 'Weight Loss', correct: false},
+            {text: 'All of Them', correct: true},
+        ]
+    },
+    {
+        question: 'Which multipler is used for a Sedentary lifestyle?',
+        answer: [
+            {text: 'x1.2', correct: true},
+            {text: 'x1.375', correct: false},
+            {text: 'x1.55', correct: false},
+            {text: 'x1.9', correct: false},
         ]
     },
 
