@@ -104,6 +104,7 @@ function gameReset (){
     wrongScore.innerHTML = incorrect
     shuffledQuestion = questions.sort(() => Math.random() - .5);
     currentQuestion = 0;
+    restartButton.classList.toggle('hide');
     nextQuestion();
 }
 
@@ -121,11 +122,12 @@ function answerSelect(event){
     // allows to restart if questions exhausted
     if (shuffledQuestion.length > currentQuestion + 1) {
         nextButton.classList.remove('hide');
-    } else {
-        // startButton.innerText = 'Restart';
-        // startButton.classList.remove('hide');
+    } else if (currentQuestion === 0){
+        startGame();
+        questionContElements.classList.add('hide');
+
+    }else {
         restartButton.classList.remove('hide');
-        gameReset(); 
     }
     //increments users answers by calling right/wrong answer functions
     //My true dataset, statement was a string therefore true represented as such
