@@ -201,5 +201,95 @@ let questions = [
             {text: 'High intensity interval training', correct: true},
         ]
     },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many muscle heas do the biceps have?',
+        answer: [
+            {text: '2', correct: true},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '5', correct: false},
+        ]
+    },
+    {
+        question: 'How many Calories does 1g Fatt have?',
+        answer: [
+            {text: '1', correct: false},
+            {text: '3', correct: false},
+            {text: '4', correct: false},
+            {text: '9', correct: true},
+        ]
+    },
 
 ]
