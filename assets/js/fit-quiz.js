@@ -31,7 +31,6 @@ restartButton.addEventListener('click', gameReset)
   * This function will intilize the game, add and remove class 'hide'
   */
 function startGame(){
-    console.log('started');
     startButton.classList.add('hide');
     questionContElements.classList.remove('hide');
 
@@ -45,15 +44,11 @@ function startGame(){
  * These functions used to increment users score (right or wrong)
  */
 function incrementRightAnswer(){
-    // let quizScore = parseInt(document.getElementById('right').innerText);
-    // document.getElementById('right').innerText = ++quizScore;
     score++;
     quizScore.innerHTML = score;
 }
 
 function incrementWrongAnswer(){
-    // let quizScore = parseInt(document.getElementById('incorrect').innerText);
-    // document.getElementById('incorrect').innerText = ++quizScore;
     incorrect++;
     wrongScore.innerHTML = incorrect;
 }
@@ -97,7 +92,6 @@ function resetMode(){
 }
 
 function gameReset (){
-    console.log("game is reset");
     score = 0;
     incorrect = 0;
     quizScore.innerHTML = score;
