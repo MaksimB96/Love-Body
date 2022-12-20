@@ -64,7 +64,7 @@ function sendMail(){
         document.getElementById('contact-email').value = "";
         document.getElementById('txtmsg').value = "";
         console.log(res);
-        alert('Thanks for the feedback!')
+        alert('Thanks for the feedback!');
     })
     .catch(err => console.log(err))
     ;

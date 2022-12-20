@@ -75,11 +75,11 @@ function showQuestion(question){
         // check if answer is correct
         if(answer.correct){
             button.dataset.correct = answer.correct;
-        };
+        }
 
         button.addEventListener('click', answerSelect);
         answerButtonElement.appendChild(button);
-    })
+    });
 }
 
 /**
@@ -100,7 +100,7 @@ function gameReset (){
     incorrect = 0;
     quizScore.innerHTML = score;
     wrongScore.innerHTML = incorrect;
-    shuffledQuestion = questions.sort(() => Math.random() - .5);
+    shuffledQuestion = questions.sort(() => Math.random() - 0.5);
     currentQuestion = 0;
     restartButton.classList.toggle('hide');
     nextQuestion();

@@ -16,12 +16,12 @@
 }
 
 body h1,
-h2,
-h3 {
+h2
+ {
     font-family: var(--solway);
 }
 
-body p {
+body p, h3{
     font-family: var(--roboto);
 }
 
@@ -142,7 +142,7 @@ p {
     cursor: pointer;
 }
 
-.container-index p{
+.container-index h3{
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
 }
 
