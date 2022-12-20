@@ -43,16 +43,16 @@
                 <h3>Leave some Feedback!</h3>
                 <div class="form-inputs">
                     <label>Full Name<span id="name-error"> Name Required</span></label>
-                    <input id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();">
+                    <input id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();" aria-label="Enter your Full Name">
                 </div>
                 <div class="form-inputs">
                     <label>Email Address<span id="email-error">. Email Required</span></label>
                     <input id="contact-email" type="email" placeholder="Please enter your email"
-                        onkeyup="validEmail();">
+                        onkeyup="validEmail();" aria-label="Enter your email">
                 </div>
                 <div class="form-inputs">
                     <label>Your Feedback</label>
-                    <textarea id="txtmsg" rows="5" placeholder="Please leave us your feedback!"></textarea>
+                    <textarea id="txtmsg" rows="5" placeholder="Please leave us your feedback!" aria-label="Leave your feedback here"></textarea>
                 </div>
 
                 <button class="form-btn-submit" onclick="sendMail();">Submit</button>

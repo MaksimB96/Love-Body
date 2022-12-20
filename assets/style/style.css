@@ -381,7 +381,7 @@ form button {
     
     .form-btn-submit:active, .form-btn-submit:hover{
         background: var(--white);
-        color: var(--greenone);
+        color: black;
         transition: 0.5s;
         cursor: pointer;
     }
