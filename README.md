@@ -3,7 +3,7 @@
 
 ![Mockup image](docs/am-i-responsive.png)
 
-[live web-page](https://maksimb96.github.io/FitnessMadeMinimal/)
+[live web-page](https://maksimb96.github.io/LoveBody/)
 
 ## Table of contents
 
@@ -38,33 +38,27 @@
 ## Project Goals
 
 ### User Goals
-    -Finding a site that provides simple but effective fitness advice
-    -Gain a better understanding of the fundamentals of training
-    -Gain a better understanding of the fundamentals of diet
-    -Gain a better understanding of the fundamentals of rest
-    -Finding supporting information to gain deeper knowledge
-    -Get in contact with Personal trainer for additional advice
+    -Finding a site that provides a fun way to test users fitness knowledge
+    -To test training knowledge
+    -To test nutrition knowledge
+    -Find a way to leave feedback to improve quiz
 
 ### Site Owner Goals
-    -Provide a simple, modern and un-cluttered approach to fitness
-    -Provide information in relation to the fundamentals with supporting links and videos
-    -Provide a means to get into contact
-    -Provide a site that reflects these ideas
+    -Provide a simple and fun way to test visitor knowledge 
+    -Provide an area to leave feedback
+    -Make sure contact deetails being left are real people
 
 ## User Experience
 
 ### Target Audience
-    -People looking for a place to begin training
-    -People looking for an un-complicated approach to training
-    -People looking for an un-complicated approach to rest and diet
-    -People looking for a way to contact the PT if needs be
+    -People looking to test fitness Knowledge
+    -People looking to test nutrition Knowledge
 
 ### User Requirements and Expectations
     -A simple and natural way to navigate the website
     -Quick acessibility to relevant information
     -Appealing design that responds accordingly
-    -A simple way to get in contact, and leave additional information
-    -Small amounts of reading with the ability to find additional information
+    -A simple way to get in contact, and leave feedback
     -Accessibility
 
 ### User Stories
