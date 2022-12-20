@@ -93,20 +93,20 @@ Color Choices contain a slightly colder shade of greens and neutral greys and wh
 
 
 ### Fonts
-Bebas Neue with a cursive fall-back was used as the main heading and nav text due to it's modern and crisp design.
+Solway with a serif fall back was used as the main head text as it provides a nice playful and approachable flair to the website
 <br>
-Montserrat with sans-serif fall back was used as it compliments Bebas and provides an over-all better reading experience.
+Roboto with sans-serif fall back was used as it compliments solway and contrasts to its playful style without being out of place. It is also clear and concise.
 
 ### Structure
-The website is designed in such a way that goes with the main moto. Minimal approach, Maximum results. Therefore the layout required to be clean, consice and straight to the point
-The nav bar contains all relevant points of interest with the main logo to the left and nav bar links to the right.
+The Structure of the website is a clean and minimal approach as the main focus of the website is the quiz. Therefore the index page allows for ease of access to all relevant info. The nav bar is clean and simple with all elements being clear and intuative.
+
 <br>
 
 The website is made up of 3 pages:
 
-    -The home page that draws a user and links directly to other points of interest along with the main body of the website the 'minimal fitness'.
-    -The minimal fitness page that contains all relevant info along with supporting video aids and websites.
-    -A contact page that allows easy contact along with additional queries.
+    -The home page that draws a user and links directly to other points of interest. 
+    -The fitness quiz page that contains the quiz script.
+    -A contact page that allows easy contact, validation.
 
 ### Wireframes
 <details><summary>Home</summary>
