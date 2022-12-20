@@ -110,13 +110,13 @@ The website is made up of 3 pages:
 
 ### Wireframes
 <details><summary>Home</summary>
-<img src="docs/wireframes/index.png">
+<img src="docs/wireframes/index-wireframe.png">
 </details>
-<details><summary>Minimal-Fintess</summary>
-<img src="docs/wireframes/about.png">
+<details><summary>Quiz</summary>
+<img src="docs/wireframes/quiz-wireframe.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/wireframes/contact.png">
+<details><summary>Feedback</summary>
+<img src="docs/wireframes/form-wireframe.png">
 </details>
 
 ## Tech Used
