@@ -64,37 +64,33 @@
 ### User Stories
 
 #### First-time User
-1. As a first time user, I want more information regarding fitness and be drawn in
-2. As a first time user, I want more information regarding training fundamentals
+1. As a first time user, I want to test my fitness knowledge
+2. As a first time user, I want to test my nutrition knowledge
 3. As a first time user, I want information presented in one location
-4. As a first time user, I want to get in contact with a fitness professional in order to obtain more answers
+4. As a first time user, I want to leave feedback for further addition of questions
 
 #### Returning User
 5. As a returning user I want to refresh my knowledge on fitness
-6. As a returnong user I want to get back on track with my calorie intake
-7. As a returning user I want to get back on track with my training 
-8. As a returning user I want to have a clear pathway to getting into contact with a fitness professional
-9. As a returning user I want to be able to locate relevant social links
+6. As a returning user I want to refresh my knowledge on nutrition
+7. As a returning user I want to see additional quesstions added
+8. As a returning user I want to be able to locate relevant social links
 
 #### Site Owner
-10. As a site owner I want people to locate relevant information to fitness
-11. As a site owner I want people to get to know the PT
+10. As a site owner I want people to locate relevant information to the quiz
+11. As a site owner I want people to be able to play as many times 
 12. As a site owner I want individuals to get in contact
 
 ## Design
 
 ### Design Choices
-The Website was designed with the main company colours and design in mind. Bold strong colours, but with minimal and clean design.
-Clean font choices, colour choices and background images, support fitness and are relevant to the topics.
+The website was developed in such a way that had a minimal and colourful approach that is not too much to overload the senses. It has all relevaant information on the home page that allows users to jump directly to the relevant points of interest.
 
 ### Colour
-Colour choices are based on the main company colours, red, white, black and notes of matte black an grays, alongside lighter reds for better contrast I tested colours on wave in order to make sure that
-a clear contrast between elements was met.
+Color Choices contain a slightly colder shade of greens and neutral greys and white to compliment all elements. A less satturated green was used as many associate the higher saturated colors with 'vegan'. Highlight color of oraange was used as it plays well with the secondary colors.
 <br>
 
-![Color Scheme](docs/features/color-pallete1.png)
-![Color Scheme](docs/features/color-pallete2.png)
-![Color Scheme](docs/features/color-pallete3.png)
+![Color Scheme](docs/features/colors.png)
+
 
 ### Fonts
 Bebas Neue with a cursive fall-back was used as the main heading and nav text due to it's modern and crisp design.
