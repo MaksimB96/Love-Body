@@ -124,6 +124,7 @@ The website is made up of 3 pages:
 ### Languages
     -HTML
     -CSS
+    -Java Script
 
 ### Tools
     -Git
@@ -131,10 +132,12 @@ The website is made up of 3 pages:
     -Git Pod
     -Balsamiq
     -Google Fonts
-    -bl.ocks.org
+    -Adobe Color Wheel
     -Font Awesome
     -Favicon.io
-    -miniPaint
+    -Circle Crop
+    -EmailJs
+    -Canva
 
 ## Features
 The Website consists of 3 pages with 11 features

@@ -271,9 +271,7 @@ form h3 {
 
 .form-inputs span {
     font-size: 9px;
-    /* position: absolute; */
-    /* right: 62px; */
-    color: red;
+    color: #e20505;
     margin-left: 10px;
 }
 
