@@ -15,8 +15,8 @@ let nextButton = document.getElementById('next');
 let restartButton = document.getElementById('restart');
 let score = 0;
 let incorrect = 0;
-let quizScore = document.getElementById('right')
-let wrongScore = document.getElementById('incorrect')
+let quizScore = document.getElementById('right');
+let wrongScore = document.getElementById('incorrect');
 let shuffledQuestion, currentQuestion;
 
 startButton.addEventListener('click', startGame);
@@ -24,8 +24,9 @@ nextButton.addEventListener('click', () => {
     // increments to the next question
     currentQuestion++;
     nextQuestion();
-})
-restartButton.addEventListener('click', gameReset)
+});
+
+restartButton.addEventListener('click', gameReset);
 
  /**
   * This function will intilize the game, add and remove class 'hide'
@@ -35,7 +36,7 @@ function startGame(){
     questionContElements.classList.remove('hide');
 
     // questions.sort will randomize my questions
-    shuffledQuestion = questions.sort(() => Math.random() - .5);
+    shuffledQuestion = questions.sort(() => Math.random() - 0.5);
     currentQuestion = 0;
     nextQuestion();
 }
@@ -73,7 +74,7 @@ function showQuestion(question){
         button.classList.add('btn');
         // check if answer is correct
         if(answer.correct){
-            button.dataset.correct = answer.correct
+            button.dataset.correct = answer.correct;
         };
 
         button.addEventListener('click', answerSelect);
@@ -88,14 +89,17 @@ function resetMode(){
     nextButton.classList.add('hide');
     while (answerButtonElement.firstChild) {
         answerButtonElement.removeChild(answerButtonElement.firstChild);
-    };
+    }
 }
 
+/**
+ * When called this function rreesets the score vlues of my program
+ */
 function gameReset (){
     score = 0;
     incorrect = 0;
     quizScore.innerHTML = score;
-    wrongScore.innerHTML = incorrect
+    wrongScore.innerHTML = incorrect;
     shuffledQuestion = questions.sort(() => Math.random() - .5);
     currentQuestion = 0;
     restartButton.classList.toggle('hide');
@@ -111,7 +115,7 @@ function answerSelect(event){
     setStatusClass(document.body, correct);
     // coverts answerbuttonelements.children to array so I can loop through it
     Array.from(answerButtonElement.children).forEach(button => {
-        setStatusClass(button, button.dataset.correct)
+        setStatusClass(button, button.dataset.correct);
     });
     // allows to restart if questions exhausted
     if (shuffledQuestion.length > currentQuestion + 1) {
@@ -135,7 +139,7 @@ function answerSelect(event){
 }
 
 function setStatusClass(element, correct){
-    clearStatusElement(element)  
+    clearStatusElement(element);  
         if (correct){
             element.classList.add('correct');
         } else {
@@ -209,7 +213,7 @@ let questions = [
         ]
     },
     {
-        question: 'What is the meaasurment used for food',
+        question: 'What is the measurment used for food',
         answer: [
             {text: 'Calories', correct: true},
             {text: 'Kilojules', correct: false},
@@ -262,7 +266,7 @@ let questions = [
         ]
     },
     {
-        question: 'How many calories dos 1g carbs have??',
+        question: 'How many calories does 1g carbs have??',
         answer: [
             {text: '2', correct: false},
             {text: '4', correct: true},
@@ -271,7 +275,7 @@ let questions = [
         ]
     },
     {
-        question: 'How many calories dos 1g protein have?',
+        question: 'How many calories does 1g protein have?',
         answer: [
             {text: '2', correct: false},
             {text: '3', correct: false},
@@ -314,4 +318,4 @@ let questions = [
         ]
     },
 
-]
+];
