@@ -300,6 +300,32 @@ form button {
     outline: none;
 }
 
+/* 404 page */
+.containerfour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourofour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourofour button{
+    background-color: var(--greenone);
+    border-radius: 10px;
+}
+
+.fourfour button a{
+    list-style-type: none;
+    color: var(--white);
+    font-family: var(--roboto);
+}
+
 
 @media only screen and (min-width: 768px) {
 
@@ -377,6 +403,10 @@ form button {
     footer i:hover{
         color: orange;
         transition: 0.5s;
+    }
+
+    .fourfour{
+        width: 350px;
     }
     
     .form-btn-submit:active, .form-btn-submit:hover{
