@@ -20,7 +20,7 @@
     * [Fonts](#font)
     * [Structure](#structure)
     * [Wireframe](#wire-frame)
-4. [Tech Used](#tech)
+4. [Tech Used](#tech-used)
     * [Languages](#languages)
     * [Tools](#tools)
 5. [Features](#features)
@@ -118,6 +118,7 @@ The website is made up of 3 pages:
 <details><summary>Feedback</summary>
 <img src="docs/wireframes/form-wireframe.png">
 </details>
+-Tablet view is exactly the same as desktop!
 
 ## Tech Used
 
@@ -139,6 +140,7 @@ The website is made up of 3 pages:
     -EmailJs
     -Canva
     -Boot strap
+    -pixelr
 
 ## Features
 The Website consists of 3 pages with 11 features
@@ -302,14 +304,23 @@ Google light house was used in order to confirm good standards of performace
 ### Testing User Stories
 
 1. As a first time user, I want to test my fitness knowledge
+
 2. As a first time user, I want to test my nutrition knowledge
+
 5. As a returning user I want to refresh my knowledge on fitness
+
 6. As a returning user I want to refresh my knowledge on nutrition
+
 7. As a returning user I want to see additional questions added
+
 3. As a first time user, I want information presented in one location
+
 4. As a first time user, I want to leave feedback for further addition of questions
+
 9. As a site owner I want people to locate relevant information to the quiz
+
 10. As a site owner I want people to be able to play as many times
+
 11. As a site owner I want individuals to get in contact
 
 
@@ -338,7 +349,7 @@ Google light house was used in order to confirm good standards of performace
 | **Feature** | **Action** | **Expected Results** | **Final Result** |
 |-------------|------------|----------------------|------------------|
 |             |            |                      |                  |
-|Social Meedia Links|User has access socials| Functional links| Works as intended|
+|Social Media Links|User has access socials| Functional links| Works as intended|
 <details><summary>Screenshot</summary>
 <img src="docs/testing-features/socialsuf.jpg">
 </details>
@@ -350,11 +361,9 @@ Google light house was used in order to confirm good standards of performace
 | **Bug** | **Fix** | 
 |---------|---------|
 |         |         | 
-|Paragraph constantly showing error| Through process of elimination, it was determined that lists could not be nested in paragraphs|
-|Picture of me layout issues|Float properties and shape outside tool made it difficult to make responsive, flex box utilised instead|
-|Performance issues on page 2| Assigned new images that were compressed|
-|Page 2 poor anchor issues on Wave| Utilising aria labels fixed this|
-
+|Restart Scores did not work as intended| Created new button instead of changing inner html and defind it, and added functions that reset score on click via event listener|
+|Form not validating|Added correct string in order validate |
+|Initial break of quiz| Corrected elements by id and programmed restart button and function correctly|
 
 ## Deployment
 
@@ -368,45 +377,38 @@ Deployment of site was acheived through these steps:
 
 ### Media
 
-1. The following were sourced from <a href="https://www.pexels.com/"> Pexels.com </a>
-
-    1. barbell.jpg
-    2. barbell2.jpg
-    3. bedrest.jpg
-    4. dumbell-rack.jpg
-    5. dumbell2.jpg
-    6. gymhll.jpg
-    7. red-cherry.jpg
-    8. resting.jpg
-    9. soup.jpg
-    10. IFrame youtube video sourced from <a href="https://www.youtube.com/@JeffNippard">Jeff Nippard</a>
-    
-    font awesome script and icons from font awesome
-
-2. The following are owned by me and my PT company
-    1. red-white-logo
-    2. pic-of-me
+All media created by me using  <a href="https://www.canva.com/">Canva</a>, this includes Icons and backgound images.
+<br>
+Any Icons used found on <a href="https://fontawesome.com/">Font Awesome</a>
+<br>
+Burger Image by <a href="https://www.flaticon.com/free-icon/menu_4254068?term=menu-burger&page=1&position=2&page=1&position=2&related_id=4254068&origin=tag#">Andy Horvath</a>
+<br>
+X Image by <a href="https://www.flaticon.com/free-icon/close_2997911?term=x&page=1&position=5&page=1&position=5&related_id=2997911&origin=tag# ">Fuzzee</a>
     
 ### Code 
 
 1. 404 page code provided by Mo Shami_mentor from code institue
 2. favicon idea provided by Mo Shami_mentor, site used found <a href="https://favicon.io/"> here</a>
-3. Accordion inspiration found on youtube, by <a href="https://www.youtube.com/watch?v=oCx4gtYe410"> Easy Tutorials</a>
-4. Footer inspiration, zoom animation found from 'love running project' by code institute
-5. Text shadow property take from <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php"> w3schools</a>
-6. minimal contact box inspiration found on youtube by <a href="https://www.youtube.com/watch?v=l_Z3N3etkS0">Coding Market</a>
-7. placeholder text color found on w23schools <a href="https://www.w3schools.com/csSref/sel_placeholder.php#:~:text=The%20%3A%3Aplaceholder%20selector%20selects,value%20of%20an%20input%20field.">link here</a>
-8. Form dump link used from code institute execises
-9. pointer events removal from <a href="https://stackoverflow.com/questions/46949984/removing-pointer-events-none-property-not-working"> Stack overflow </a>
+3. EmailJS utilisation by <a href="https://www.youtube.com/watch?v=fz8bwvn9lA4"> Easy Tutorials</a>
+4. Increment of answers inspired by LoveMaths by Code Institute
+5. Text shadow property taken from <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php"> w3schools</a>
+6. Email Validation strings by <a href="https://www.w3resource.com/javascript/form/email-validation.php
+">W3Schools</a>
+
 
 
 ## Acknowledgements
 
 -I would like to thank Victor my mentor
+<br>
 -CI for provide me the knowledge to under-take this task
--Tutor Support for provideing better knowledge to implement the code! 
--My beautiful girlfriend who almost got all my typos
+<br>
+-Tutor Support for provideing better knowledge to implement the code!
+<br>
+-My beautiful girlfriend who almost got all my typos and My friend for design related advice
+<br>
 -The wonderful community over on Slack!
+
 
 
 
