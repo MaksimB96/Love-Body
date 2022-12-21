@@ -255,16 +255,16 @@ JSHint validator was utilised in order to make sure the javascript code passes s
 <br>
 
 ### Accessability
-Wave WebAIM was utilized in order to make sure the website met high accessability standards. All pages pass with no errors or contrast errors.
+Wave WebAIM was utilized in order to make sure the website met high accessability standards. All pages pass with no errors or contrast errors. Warnings are due to things such as logo having the same link as the hom, which is an intentional feature. The form segment states the labels are not owned by input eventhough they have been propeerly attributed.
 
 <details><summary>Index</summary>
-<img src="docs/validation/indexwave.png">
+<img src="docs/validations/indexwave.png">
 </details>
 <details><summary>Fitness Quiz</summary>
-<img src="docs/validation/quizwave.png">
+<img src="docs/validations/quizwave.png">
 </details>
 <details><summary>Feedback</summary>
-<img src="docs/validation/feedbackwave.png">
+<img src="docs/validations/feedbackwave.png">
 </details>
 
 <br>
@@ -436,6 +436,7 @@ Deployment of site was acheived through these steps:
 
 -I would like to thank Victor my mentor
 -CI for provide me the knowledge to under-take this task
+-Tutor Support for provideing better knowledge to implement the code! 
 -My beautiful girlfriend who almost got all my typos
 -The wonderful community over on Slack!
 
