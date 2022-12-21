@@ -398,13 +398,16 @@ X Image by <a href="https://www.flaticon.com/free-icon/close_2997911?term=x&page
 
 1. 404 page code provided by Mo Shami_mentor from code institue
 2. favicon idea provided by Mo Shami_mentor, site used found <a href="https://favicon.io/"> here</a>
-3. EmailJS utilisation by <a href="https://www.youtube.com/watch?v=fz8bwvn9lA4"> Easy Tutorials</a>
+3. Form Validation inspiraation by <a href="https://www.youtube.com/watch?v=fz8bwvn9lA4"> Easy Tutorials</a>
 4. Increment of answers inspired by LoveMaths by Code Institute
 5. Text shadow property taken from <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php"> w3schools</a>
 6. Email Validation strings by <a href="https://www.w3resource.com/javascript/form/email-validation.php
 ">W3Schools</a>
+<br>
 7.Burger Nav bar help from tutor support
-8.Reset button functionaality help from tutor support
+8.Reset button functionality help from tutor support
+9.EmailJs instructions may be found on <a href="https://www.emailjs.com/
+">EmailJS</a>
 
 
 
