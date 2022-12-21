@@ -42,17 +42,17 @@
             <form>
                 <h3>Leave some Feedback!</h3>
                 <div class="form-inputs">
-                    <label>Full Name<span id="name-error"> Name Required</span></label>
-                    <input id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();" aria-label="Enter your Full Name">
+                    <label for="fname">Full Name<span id="name-error"> Name Required</span></label>
+                    <input name="fname" id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();" aria-label="Enter your Full Name">
                 </div>
                 <div class="form-inputs">
-                    <label>Email Address<span id="email-error">. Email Required</span></label>
-                    <input id="contact-email" type="email" placeholder="Please enter your email"
+                    <label for="emailad">Email Address<span id="email-error">. Email Required</span></label>
+                    <input name="emailad" id="contact-email" type="email" placeholder="Please enter your email"
                         onkeyup="validEmail();" aria-label="Enter your email">
                 </div>
                 <div class="form-inputs">
-                    <label>Your Feedback</label>
-                    <textarea id="txtmsg" rows="5" placeholder="Please leave us your feedback!" aria-label="Leave your feedback here"></textarea>
+                    <label for="txtarea">Your Feedback</label>
+                    <textarea name="txtarea" id="txtmsg" rows="5" placeholder="Please leave us your feedback!" aria-label="Leave your feedback here"></textarea>
                 </div>
 
                 <button class="form-btn-submit" onclick="sendMail();">Submit</button>

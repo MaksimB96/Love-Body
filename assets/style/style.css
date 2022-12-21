@@ -270,7 +270,7 @@ form h3 {
 }
 
 .form-inputs span {
-    font-size: 9px;
+    font-size: 12px;
     color: #e20505;
     margin-left: 10px;
 }
@@ -295,7 +295,7 @@ form button {
     padding: 10px;
     border-radius: 5px;
     background: var(--greentwo);
-    color: var(--white);
+    color: black;
     border: 0;
     outline: none;
 }
