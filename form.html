@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/style.css">
-     <!-- Favicon -->
-     <link rel="icon" type="image/x-icon" href="../LoveBody/favicon.ico">
-     <!-- Google Font  -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../LoveBody/favicon.ico">
+    <!-- Google Font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Solway:wght@500&display=swap"
         rel="stylesheet">
+    <meta name="description" content="Quiz to test your knowledge.">
+    <meta name="keywords" content="fitness, nutrition, training, diet, lifestyle">
     <title>Love Body</title>
 </head>
 
@@ -37,13 +39,14 @@
         </div>
     </section>
     <section>
-
+        <!-- emailjs instructions and eaasy tutorials inspired validation -->
         <div class="wrapper1 form-area">
             <form id="myform">
                 <h1>Leave some Feedback!</h1>
                 <div class="form-inputs">
                     <label for="fname">Full Name<span id="name-error"> Name Required</span></label>
-                    <input name="fname" id="contact-name" type="text" placeholder="Please enter your name" onkeyup="validName();" aria-label="Enter your Full Name">
+                    <input name="fname" id="contact-name" type="text" placeholder="Please enter your name"
+                        onkeyup="validName();" aria-label="Enter your Full Name">
                 </div>
                 <div class="form-inputs">
                     <label for="emailad">Email Address<span id="email-error">. Email Required</span></label>
@@ -52,7 +55,8 @@
                 </div>
                 <div class="form-inputs">
                     <label for="txtarea">Your Feedback</label>
-                    <textarea name="txtarea" id="txtmsg" rows="5" placeholder="Please leave us your feedback!" aria-label="Leave your feedback here"></textarea>
+                    <textarea name="txtarea" id="txtmsg" rows="5" placeholder="Please leave us your feedback!"
+                        aria-label="Leave your feedback here"></textarea>
                 </div>
 
                 <button id="validsubmit" class="form-btn-submit" onclick="sendMail();">Submit</button>
@@ -75,7 +79,7 @@
         </ul>
     </footer>
     <!-- emailJS -->
-    <script  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script>
         (function () {
