@@ -320,8 +320,9 @@ form button {
     border-radius: 10px;
 }
 
-.fourfour button a{
+.fourofour button a{
     list-style-type: none;
+    text-decoration: none;
     color: var(--white);
     font-family: var(--roboto);
 }
