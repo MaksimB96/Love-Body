@@ -325,6 +325,7 @@ form button {
     text-decoration: none;
     color: var(--white);
     font-family: var(--roboto);
+    margin: 10px 20px;
 }
 
 
