@@ -403,6 +403,8 @@ X Image by <a href="https://www.flaticon.com/free-icon/close_2997911?term=x&page
 5. Text shadow property taken from <a href="https://www.w3schools.com/cssref/css3_pr_text-shadow.php"> w3schools</a>
 6. Email Validation strings by <a href="https://www.w3resource.com/javascript/form/email-validation.php
 ">W3Schools</a>
+7.Burger Nav bar help from tutor support
+8.Reset button functionaality help from tutor support
 
 
 
