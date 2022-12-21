@@ -32,8 +32,9 @@
     * [User Story Testing](#user-story-testing)
 7. [Bugs](#bugs)
 8. [Deployment](#deploy)
-9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
+9. [Future Features](#future-features)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -372,6 +373,14 @@ Deployment of site was acheived through these steps:
 2. I then selected the pages link on the left side.
 3. I then selected source for the branch prompt.
 4. Roughly, 2 minutes after refreshing I recieved a link to my site: https://maksimb96.github.io/LoveBody/ 
+
+## Future Features
+
+There are a few more feartures that I would like to implement in the future. These Include:
+1.Polished Nav Bar with smooth transition
+2.Timer function to quiz
+3.Randomize the order of how button answers display
+4.A progress Bar to track progress
 
 ## Credits
 
