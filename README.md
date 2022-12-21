@@ -301,81 +301,49 @@ Google light house was used in order to confirm good standards of performace
 
 ### Testing User Stories
 
-1. As a first time user, I want more information regarding fitness and be drawn in
-2. As a first time user, I want more information regarding training fundamentals
+1. As a first time user, I want to test my fitness knowledge
+2. As a first time user, I want to test my nutrition knowledge
 5. As a returning user I want to refresh my knowledge on fitness
-6. As a returning user I want to get back on track with my calorie intake
-7. As a returning user I want to get back on track with my training 
-10. As a site owner I want people to locate relevant information to fitness
-
-<br>
-
-| **Feature** | **Action** | **Expected Results** | **Final Result** |
-|-------------|------------|----------------------|------------------|
-|             |            |                      |                  |
-| Home page, slogan zoom accordion| Button click, accordion expands into additional information| Home page will provide prompt to click, Accordion will provide solid information| Interactivaity of home page prompts click and accordion provides solid information with relevent links|
-|3 Fitness elements| Visual Aid to locate fundamentals| Draws users to pictures then to accordion| Better response to read further|
-|Accordion Icon Hover| Icon turns red on hover and is distinguishable| Clear visual prompt to press closed accordion| User prompted to press as it is intuative|
-
-<details><summary>Screenshot</summary>
-<img src="docs/user-story-test/slogan-zoom-interact.png">
-<img src="docs/user-story-test/accordion-test.png">
-<img src="docs/user-story-test/hover-icon-text.png">
-</details>
-<br>
-
-
-
+6. As a returning user I want to refresh my knowledge on nutrition
+7. As a returning user I want to see additional questions added
 3. As a first time user, I want information presented in one location
+4. As a first time user, I want to leave feedback for further addition of questions
+9. As a site owner I want people to locate relevant information to the quiz
+10. As a site owner I want people to be able to play as many times
+11. As a site owner I want individuals to get in contact
+
+
+<br>
 
 | **Feature** | **Action** | **Expected Results** | **Final Result** |
 |-------------|------------|----------------------|------------------|
 |             |            |                      |                  |
-|Iframe| user has access to video aid and full control| Iframe works well and allows full user control| Iframe responsive and alllows full user control|
+| Home page, Linked Icons| Burger Menu/ Desktop menu show relevant info, icons link to poi's| Interactive Elements prompt to trravel to relevant poi's| Home page prompts user to travel to all locations from home page|
+|Quiz| Allows user to test knowledge in relation to fitness| Clear visual indicators for correct/wrong answer, questions cycle and then reset as intended|Quiz Works as intended|
+|Feedback Form| Input fields only submit once form validated| Form validates inputs and sends feedback to me| Form Works as intended|
+
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-test/accordion-test-2.png">
+<img src="docs/testing-features/index-uf.jpg">
+<img src="docs/testing-features/quizuf-1.jpg">
+<img src="docs/testing-features/quizuf2.jpg">
+<img src="docs/testing-features/quizuf3.jpg">
+<img src="docs/testing-features/formuf.jpg">
 </details>
 <br>
 
 
 
-4. As a site owner I want people to get to know the PT
+8. As a returning user I want to be able to locate relevant social links
 
 | **Feature** | **Action** | **Expected Results** | **Final Result** |
 |-------------|------------|----------------------|------------------|
 |             |            |                      |                  |
-|About Me| Source of information for who the PT is| User scrolls to find information| Works as expected|
+|Social Meedia Links|User has access socials| Functional links| Works as intended|
 <details><summary>Screenshot</summary>
-<img src="docs/user-story-test/about-test.png">
+<img src="docs/testing-features/socialsuf.jpg">
 </details>
 <br>
 
-
-
-9. As a returning user I want to be able to locate relevant social links
-
-| **Feature** | **Action** | **Expected Results** | **Final Result** |
-|-------------|------------|----------------------|------------------|
-|             |            |                      |                  |
-|Footer| social link icons| User will interact with Icons| Works as as intended|
-<details><summary>Screenshot</summary>
-<img src="docs/user-story-test/footer-test.png">
-</details>
-<br>
-
-
-
-8. As a returning user I want to have a clear pathway to getting into contact with a fitness professional
-12. As a site owner I want individuals to get in contact
-
-| **Feature** | **Action** | **Expected Results** | **Final Result** |
-|-------------|------------|----------------------|------------------|
-|             |            |                      |                  |
-|Contact Form| Enter text fields| User enters form and additdional questions| Works as intended|
-<details><summary>Screenshot</summary>
-<img src="docs/user-story-test/submit-form-test.png">
-</details>
-<br>
 
 ## Bugs
 
@@ -394,7 +362,7 @@ Deployment of site was acheived through these steps:
 1. I navigated to the settings section on git hub repositories on my repository.
 2. I then selected the pages link on the left side.
 3. I then selected source for the branch prompt.
-4. Roughly, 2 minutes after refreshing I recieved a link to my site: https://maksimb96.github.io/FitnessMadeMinimal/index.html 
+4. Roughly, 2 minutes after refreshing I recieved a link to my site: https://maksimb96.github.io/LoveBody/ 
 
 ## Credits
 

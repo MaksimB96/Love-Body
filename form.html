@@ -39,7 +39,7 @@
     <section>
 
         <div class="wrapper1 form-area">
-            <form>
+            <form id="myform">
                 <h1>Leave some Feedback!</h1>
                 <div class="form-inputs">
                     <label for="fname">Full Name<span id="name-error"> Name Required</span></label>
@@ -55,7 +55,7 @@
                     <textarea name="txtarea" id="txtmsg" rows="5" placeholder="Please leave us your feedback!" aria-label="Leave your feedback here"></textarea>
                 </div>
 
-                <button class="form-btn-submit" onclick="sendMail();">Submit</button>
+                <button id="validsubmit" class="form-btn-submit" onclick="sendMail();">Submit</button>
             </form>
 
         </div>

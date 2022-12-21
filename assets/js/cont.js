@@ -8,8 +8,6 @@ function showMenu(){
 let nameError = document.getElementById('name-error');
 let emailError = document.getElementById('email-error');
 
-
-
  //Function will validate whether name is full or if empty or not 
 function validName(){
     let validateName = document.getElementById('contact-name').value;
