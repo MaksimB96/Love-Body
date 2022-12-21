@@ -212,16 +212,16 @@ The Website consists of 3 pages with 11 features
 ## Validation
 
 ### HTML Validation
-W3C mark-up was utilised in order to validate html of the website. All Pages pass with no errors.
+W3C mark-up was utilised in order to validate html of the website. All Pages pass with no errors. Warnings are related to various segments not using Headings, but utilise div elements.
 
-<details><summary>Home</summary>
-<img src="docs/validation/index.png">
+<details><summary>Index</summary>
+<img src="docs/validations/index-valid.png">
 </details>
-<details><summary>Minimal Fitness</summary>
-<img src="docs/validation/about.png">
+<details><summary>Fitness Quiz</summary>
+<img src="docs/validations/fitquiz-valid.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/contact.png">
+<details><summary>Feedback</summary>
+<img src="docs/validations/cont-valid.png">
 </details>
 
 <br>
@@ -230,7 +230,26 @@ W3C mark-up was utilised in order to validate html of the website. All Pages pas
 W3C CSS validator was utilised in order to make sure the css code passes standards with no errors.
 
 <details><summary>Full Document</summary>
-<img src="docs/validation/css-valid.png">
+<img src="docs/validations/style-valid.png">
+</details>
+
+<br>
+
+### JS Validation
+JSHint validator was utilised in order to make sure the javascript code passes standards with no errors or warnings, All functions marked as "unused" are called on click in HTML code segments, images of relevnt code is attached to validations.
+
+<details><summary>Index</summary>
+<img src="docs/validations/index-js.png">
+<img src="docs/validations/showmenu-explain.png">
+</details>
+<details><summary>Fitness Quiz</summary>
+<img src="docs/validations/jshint-fitquiz.png">
+<img src="docs/validations/showmenu-explain.png">
+</details>
+<details><summary>Feedback</summary>
+<img src="docs/validations/email-js.png">
+<img src="docs/validations/emailjs-explain.png">
+<img src="docs/validations/formfunct-explain.png">
 </details>
 
 <br>
@@ -238,14 +257,14 @@ W3C CSS validator was utilised in order to make sure the css code passes standar
 ### Accessability
 Wave WebAIM was utilized in order to make sure the website met high accessability standards. All pages pass with no errors or contrast errors.
 
-<details><summary>Home</summary>
-<img src="docs/validation/index-wave.png">
+<details><summary>Index</summary>
+<img src="docs/validation/indexwave.png">
 </details>
-<details><summary>Minimal Fitness</summary>
-<img src="docs/validation/about-wave.png">
+<details><summary>Fitness Quiz</summary>
+<img src="docs/validation/quizwave.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/contact-wave.png">
+<details><summary>Feedback</summary>
+<img src="docs/validation/feedbackwave.png">
 </details>
 
 <br>
@@ -253,14 +272,14 @@ Wave WebAIM was utilized in order to make sure the website met high accessabilit
 ### Performance
 Google light house was used in order to confirm good standards of performace
 
-<details><summary>Home</summary>
-<img src="docs/validation/index-perf.png">
+<details><summary>Index</summary>
+<img src="docs/validations/index-perform.png">
 </details>
-<details><summary>Minimal Fitness</summary>
-<img src="docs/validation/about-perf.png">
+<details><summary>Fitness Quiz</summary>
+<img src="docs/validations/fitquiz-perform.png">
 </details>
-<details><summary>Contact</summary>
-<img src="docs/validation/sign-up-perf.png">
+<details><summary>Feedback</summary>
+<img src="docs/validations/form-perform.png">
 </details>
 
 <br>
@@ -268,11 +287,17 @@ Google light house was used in order to confirm good standards of performace
 ### Tests
 
 #### Devices tested on on:
-    -Iphone SE
-    -Iphone XR
-    -Iphone 12
+    -Iphone SE, XR, 11, 12, 13
     -Ipad
-    -Macbook Pro
+    -Macbook Pro/Air
+    -Lenovo Platform
+    -Dell Platform
+
+#### Browser tested on on:
+    -Chrome
+    -Mozilla
+    -Safari
+    -Brave/Brave Mobile
 
 ### Testing User Stories
 
