@@ -76,9 +76,9 @@
 8. As a returning user I want to be able to locate relevant social links
 
 #### Site Owner
-10. As a site owner I want people to locate relevant information to the quiz
-11. As a site owner I want people to be able to play as many times 
-12. As a site owner I want individuals to get in contact
+9. As a site owner I want people to locate relevant information to the quiz
+10. As a site owner I want people to be able to play as many times 
+11. As a site owner I want individuals to get in contact
 
 ## Design
 
@@ -138,81 +138,76 @@ The website is made up of 3 pages:
     -Circle Crop
     -EmailJs
     -Canva
+    -Boot strap
 
 ## Features
 The Website consists of 3 pages with 11 features
 
-### Logo and Nav-Bar
+### Logo and Nav-Bar/ Home buttons
     -featured on all three pages
-    -Nav bar is fully responsive and changes to a condensed veiw on mobile devices. Nav bar links to all relevant pages allowing for quick access.
-    -Nav bar has selected item in order to give clear feedback to location.
+    -Home page Icons have zoom effect and has all info on one page to prevent excessive travel
+    -Nav bar is fully responsive and changes to a burger style on mobile devices. Nav bar links to all relevant pages allowing for quick access.
+    -Nav bar has selected item in order to give clear feedback to location as well as hover.
     -Pages 2/3 have a slight difference in appearance but over all same design in order to not disrupt immersion.
-    -Nav bar hover turns text red in order to give clear feedback to where you are about to go.
-    -User stories adressed: 1.
+    -User stories adressed: 3, 9.
     
-![Logo & Navbar](docs/features/navbar1.png)
-![Logo & Navbar](docs/features/navbar2.png)
-![Logo & Navbar](docs/features/navbar-select.png)
-![Logo & Navbar](docs/features/navbar-hover.png)
-![Logo & Navbar](docs/features/main-logo-zoom.png)
+![Logo & Navbar](docs/features/nav-bar.png)
+<br>
+
+![Logo & Navbar](docs/features/nav-bar-select.png)
+<br>
+
+![Logo & Navbar](docs/features/burger-nav-home.png)
+
+![Logo & Navbar](docs/features/burgerr-expanded.png)
+
 
 ### Footer
     -footer conistent on all pages with hover effect in order to provide clear feedback on selection
-    -User stories adressed: 9, 12.
+    -User stories adressed: 8.
 
-![Footer and Selection](docs/features/footer-hover.png)
-![Footer and Selection](docs/features/footer.png)
+![Footer and Selection](docs/features/socials.png)
+![Footer and Selection](docs/features/socials-select.png)
 
 
 
-### Home page Slogan animation, button hover and footer hover
-    -main slogan zooms in on landing page to draw in visitors
-    -Button has hover effect to provide selection feedback
-    -footer icons have hover effect to provide clear feedback
-    -User stories adressed: 9.
+### Quiz page
+    -Clear UI
+    -Tracks score
+    -Cycles through questions and allows to restart when questions exhaust.
+    -Clear visuals for correct/incorect selections
+    -Quiz incrementss score 
+    -User stories adressed: 1, 2, 5, 6, 10.
 
-![Slogan button & Navbar](docs/features/slogan-small.png)
-![Slogan button & Navbar](docs/features/slogan-big.png)
-![Slogan button & Navbar](docs/features/button.png)
-![Slogan button & Navbar](docs/features/button-hover.png)
+![Quiz Segment](docs/features/start-funct.png)
+![Quiz Segment](docs/features/correct-increment-next.png)
+![Quiz Segment](docs/features/restart.png)
 
-### What is Minimal Fitness segemt
-    -Provides information regarding what this website aims to achieve
-    -User stories adressed: 3.
+### Feedback Form
+    -Allows users to leave feedback for improvement of quiz etc.
+    -Form validates email and name (full name and proper email)
+    -Form Sends back email to me as soon as user leaves feedback
+    -User stories adreessed: 4, 7, 11. 
 
-![What is Minimal Fitness](docs/features/wimf.png)
+![Feedback-form](docs/features/form-feat.png)
+<br>
 
-### About Me segment
-    -Provides information regarding the personal trainer
-    -User stories adressed: 11
-   
+![Feedback-form](docs/features/invalidemail.png)
+<br>
 
-![About Me](docs/features/about-me-feat.png)
+![Feedback-form](docs/features/valid-email.png)
+<br>
 
-### Images of the fitness elements
-    -Provides visual representation regarding the 3 elements of fitness
+![Feedback-form](docs/features/fullname-rreeq.png)
+<br>
 
-![3 Fitness Elements](docs/features/div-pictures.png)
+![Feedback-form](docs/features/fullname-valid.png)
+<br>
 
-### Iframe in Accordion
-    -Provides supporting material with full user control
-     -User stories adressed: 3.
+![Feedback-form](docs/features/feedback-to-me.png)
 
-![Iframe](docs/features/iframe.png)
 
-### Accordion with hover selector
-    -Provides condensed info that expands on button press
-    -User stories adressed: 1, 2,  5, 6, 7, 10.
 
-![Accordion](docs/features/accordion.png)
-![Accordion](docs/features/accordion-exp.png)
-![Accordion](docs/features/selector-hover.png)
-
-### Contact Form
-    -Provides a medium for contact and user interaction
-    -User stories adressed: 12,8.
-
-![Contact](docs/features/contact-feat.png)
 
 ## Validation
 
